@@ -39,13 +39,15 @@
 		}
 		.head{
 			width: auto;
-			height: auto;
+			height: 25px;
 			 background-color: rgba(255, 255, 255, 0.3);
     color: white;
     border-radius: 20px;
     backdrop-filter: blur(10px); /* aplică efectul de blur */
     -webkit-backdrop-filter: blur(10px); /* suport pentru browserele WebKit */
-    padding: 20px; /* adaugă un padding pentru a evita textul să fie prea aproape de margini */
+    
+	
+	margin-top: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* opțional: adaugă o umbră pentru un efect mai pronunțat */
 			
 		}
@@ -102,16 +104,26 @@
 			 margin-top: auto;
 		}
 
-
+.textin{
+	align-self: center;
+	text-align: center;
+	
+	margin-top:7px;
+}
 	</style>
 </head>
 
 <body>
-	<link rel="stylesheet" href="https://media.mihailungu.com/resources/newyear/style.css">
-<script type="text/javascript" src="https://media.mihailungu.com/resources/newyear/newyear.js"></script>
-	<div class="head" align="center">
-		<h1 id="r2" style="font-weight: bold;">Artificial Intelligence</h1>
-	</div>
+	
+	
+	<br>
+<nav class="head navbar navbar-fixed-top" align="center">
+	
+	<h1 id="r2" class="textin" style="font-weight: bold;">Artificial Intelligence</h1>
+	
+</nav>
+<link rel="stylesheet" href="https://media.mihailungu.com/resources/newyear/style.css">
+	<script type="text/javascript" src="https://media.mihailungu.com/resources/newyear/newyear.js"></script>
 	<br>
 	<div class="row" align="center">
 		<div class="col-md-4">
@@ -973,10 +985,11 @@ myRainbowSpan2.timer=window.setInterval("myRainbowSpan2.moveRainbow()", myRainbo
 	<footer class="footer">
 		<div class="row">
 			<div class="col-md-6">
-				<h3>&copy; <span id="footer-year"></span> By Mihai Lungu </h3>
+				<h3>&copy; <span id="footer-year"></span> By <a href="https://www.mihailungu.com"><u><font color="#1102B5">Mihai Lungu</font></u></a> </h3>
 			</div>
 			<div class="col-md-6">
-				<h3 style="text-align: right;">Updated 27.12.2024 18:15</h3>
+				<h3 style="text-align: right;">Updated 29.12.2024 20:30</h3>
+				<h5 style="text-align: right;"><a href="whats-news/"><u><font color="#1102B5">Whats news</font></u></a></h5>
 			</div>
 		</div>
 	
