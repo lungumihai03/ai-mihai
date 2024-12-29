@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="https://media.mihailungu.com/resources/images/poza.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>             AI - whats news</title>
+    <style>
+
+.head{
+			width: auto;
+			height: 25px;
+			 background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 20px;
+    backdrop-filter: blur(10px); /* aplică efectul de blur */
+    -webkit-backdrop-filter: blur(10px); /* suport pentru browserele WebKit */
+    
+	
+	margin-top: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* opțional: adaugă o umbră pentru un efect mai pronunțat */
+			
+		}
+	body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100wh;
+    overflow-x: hidden; /* Ascunde bara de derulare orizontală */
+    background-image: url("../background.jpg");
+    background-size: 100vw auto; /* Ajustează lățimea imaginii la lățimea ecranului */
+    background-repeat: no-repeat;
+    background-position: top center; /* Poziționează imaginea la partea de sus a ecranului */
+    background-attachment: scroll;
+    color: black;
+
+}
+
+
+		footer{
+			padding: 10px;
+			width: auto;
+			height: auto;
+			 background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-radius: 20px;
+    backdrop-filter: blur(10px); /* aplică efectul de blur */
+    -webkit-backdrop-filter: blur(10px); /* suport pentru browserele WebKit */
+    padding: 20px; /* adaugă un padding pentru a evita textul să fie prea aproape de margini */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* opțional: adaugă o umbră pentru un efect mai pronunțat */
+			 margin-top: auto;
+		}
+        .textin{
+	align-self: center;
+	text-align: center;
+	
+	margin-top:7px;
+}
+.sub-tema{
+    margin-left:30px;
+    margin-right:30px;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 2px;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(10px); /* aplică efectul de blur */
+    -webkit-backdrop-filter: blur(10px); /* suport pentru browserele WebKit */
+    padding: 20px; /* adaugă un padding pentru a evita textul să fie prea aproape de margini */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* opțional: adaugă o umbră pentru un efect mai pronunțat */
+}
+
+    </style>
+</head>
+<body>
+    <br>
+<nav class="head navbar navbar-fixed-top" align="center">
+    <div class="row">
+        <div class="col-md-2">
+            <h1 class="textin"><a href="../"><font color="black"> < Go to AI</font></a></h1>
+        </div>
+        <div class="col-md-8">
+            <h1 id="r2" class="textin" style="font-weight: bold;"> Artificial Intelligence</h1>
+        </div>
+
+    </div>
+	
+	
+	
+</nav>
+<link rel="stylesheet" href="https://media.mihailungu.com/resources/newyear/style.css">
+	<script type="text/javascript" src="https://media.mihailungu.com/resources/newyear/newyear.js"></script>
+	<br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Whats news</h1>
+                <h4>29.12.2024 - A fost adaugata pagina whats news</h4>
+                <h4>27.12.2024 - Au fost adaugate 2 noi inteligente artificiale</h4>
+                <div class="sub-tema">
+                    <h5>Grok ai - I'm Grok 2, an AI built by xAI, designed to provide maximally helpful answers 
+                        with a dash of humor and an outside perspective on humanity. I love exploring the universe, one question at a time!</h5>
+                    <h5>DeepSeek - Chat with DeepSeek AI – your intelligent assistant for coding, content creation, 
+                        file reading, and more. Upload documents, engage in long-context conversations, and get expert help in AI, natural language processing, and beyond.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script>
+        function toSpans(span) {
+      var str=span.firstChild.data;
+      var a=str.length;
+      span.removeChild(span.firstChild);
+      for(var i=0; i<a; i++) {
+        var theSpan=document.createElement("SPAN");
+        theSpan.appendChild(document.createTextNode(str.charAt(i)));
+        span.appendChild(theSpan);
+      }
+    }
+    function RainbowSpan(span, hue, deg, brt, spd, hspd) {
+        this.deg=(deg==null?360:Math.abs(deg));
+        this.hue=(hue==null?0:Math.abs(hue)%360);
+        this.hspd=(hspd==null?3:Math.abs(hspd)%360);
+        this.length=span.firstChild.data.length;
+        this.span=span;
+        this.speed=(spd==null?80:Math.abs(spd));
+        this.hInc=this.deg/this.length;
+        this.brt=(brt==null?255:Math.abs(brt)%256);
+        this.timer=null;
+        toSpans(span);
+        this.moveRainbow();
+    }
+    RainbowSpan.prototype.moveRainbow = function() {
+      if(this.hue>359) this.hue-=360;
+      var color;
+      var b=this.brt;
+      var a=this.length;
+      var h=this.hue;
+      for(var i=0; i<a; i++) {
+    
+        if(h>359) h-=360;
+        if(h<60) { color=Math.floor(((h)/60)*b); red=b;grn=color;blu=0; }
+        else if(h<120) { color=Math.floor(((h-60)/60)*b); red=b-color;grn=b;blu=0; }
+        else if(h<180) { color=Math.floor(((h-120)/60)*b); red=0;grn=b;blu=color; }
+        else if(h<240) { color=Math.floor(((h-180)/60)*b); red=0;grn=b-color;blu=b; }
+        else if(h<300) { color=Math.floor(((h-240)/60)*b); red=color;grn=0;blu=b; }
+        else { color=Math.floor(((h-300)/60)*b); red=b;grn=0;blu=b-color; }
+        h+=this.hInc;
+        this.span.childNodes[i].style.color="rgb("+red+", "+grn+", "+blu+")";
+      }
+      this.hue+=this.hspd;
+    }
+    
+    var r2=document.getElementById("r2"); //get span to apply rainbow
+    var myRainbowSpan2=new RainbowSpan(r2, 0, 360, 255, 50, 348); //apply static rainbow effect
+    myRainbowSpan2.timer=window.setInterval("myRainbowSpan2.moveRainbow()", myRainbowSpan2.speed);
+        </script>
+         <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              var currentYear = new Date().getFullYear();
+              var footerYear = document.getElementById("footer-year");
+              footerYear.textContent = currentYear;
+            });
+          </script>
+        <footer>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>&copy; <span id="footer-year"></span> By <a href="https://www.mihailungu.com"><u><font color="#1102B5">Mihai Lungu</font></u></a> </h3>
+                </div>
+                <div class="col-md-6">
+                    <h3 style="text-align: right;">Updated 29.12.2024 20:30</h3>
+                    <h5 style="text-align: right;"><a href="whats-news/"><u><font color="#1102B5">Whats news</font></u></a></h5>
+                </div>
+            </div>
+        
+        
+        </footer>
+</body>
+</html>
