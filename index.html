@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 	 <link rel="icon" type="image/x-icon" href="https://media.mihailungu.com/resources/images/poza.jpg">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -40,9 +40,11 @@
 		.head{
 			width: auto;
 			height: 25px;
-			 background-color: rgba(255, 255, 255, 0.3);
+			 background-color: rgba(255, 255, 255, 0.20);
     color: white;
     border-radius: 20px;
+	border: 0.5px solid white;
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px); /* aplică efectul de blur */
     -webkit-backdrop-filter: blur(10px); /* suport pentru browserele WebKit */
     
@@ -56,19 +58,20 @@
     width: 580px;
 			min-height: 170px;
     height: auto;
-    background-color: rgba(255, 255, 255, 0.3);
-    color: black;
+    background-color: rgba(255,255,255,0.15);
+    color: white;
     border-radius: 20px;
+	border: 0.5px solid white;
     backdrop-filter: blur(10px); /* aplică efectul de blur */
     -webkit-backdrop-filter: blur(10px); /* suport pentru browserele WebKit */
     padding: 20px; /* adaugă un padding pentru a evita textul să fie prea aproape de margini */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* opțional: adaugă o umbră pentru un efect mai pronunțat */
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* opțional: adaugă o umbră pentru un efect mai pronunțat */
 			cursor: pointer;
 			transition: all 0.9s ease;
 	transform: scale(1.0);
 }
 		.ai:hover{
-			background-color: rgba(255, 255, 255, 0.4); 
+			background-color: rgba(255, 255, 255, 0.25); 
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
 	/* adauga un efect lin de crestere a dimensiunii */
 	transition: all 0.9s ease;
@@ -82,11 +85,8 @@
     padding: 20px;
     min-height: 400vh; /* Setează înălțimea paginii pentru a permite derularea */
     overflow-x: hidden; /* Ascunde bara de derulare orizontală */
-    background-image: url("background.jpg");
-    background-size: 100vw auto; /* Ajustează lățimea imaginii la lățimea ecranului */
-    background-repeat: no-repeat;
-    background-position: top center; /* Poziționează imaginea la partea de sus a ecranului */
-    background-attachment: scroll; /* Permite derularea imaginii */
+	background-color: #1a1a1a;
+	color:white;
 }
 
 
@@ -94,13 +94,15 @@
 			padding: 10px;
 			width: auto;
 			height: auto;
-			 background-color: rgba(255, 255, 255, 0.5);
-    color: black;
+			 background-color: rgba(255, 255, 255, 0.15);
+    color: white;
     border-radius: 20px;
+	border: 0.5px solid white;
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px); /* aplică efectul de blur */
     -webkit-backdrop-filter: blur(10px); /* suport pentru browserele WebKit */
     padding: 20px; /* adaugă un padding pentru a evita textul să fie prea aproape de margini */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* opțional: adaugă o umbră pentru un efect mai pronunțat */
+    /* opțional: adaugă o umbră pentru un efect mai pronunțat */
 			 margin-top: auto;
 		}
 
@@ -917,6 +919,19 @@
 			</div>	
 		</div>
 	</div>
+	<div class="col-md-4">
+		<div class="ai" onClick="window.open('https://chat.mistral.ai/chat')">
+		<div class="row">
+			<div class="col-md-4">
+				<img class="photo" src="https://chat.mistral.ai/favicon.ico">
+			</div>
+			<div class="col-md-7">
+		<h1 class="title">Mistral AI</h1>
+				<h4 class="information">I am a helpful and knowledgeable AI assistant, designed to provide accurate and relevant information based on the input I receive.</h4>
+				</div>
+			</div>	
+		</div>
+	</div>
 	
 
 	
@@ -985,11 +1000,27 @@ myRainbowSpan2.timer=window.setInterval("myRainbowSpan2.moveRainbow()", myRainbo
 	<footer class="footer">
 		<div class="row">
 			<div class="col-md-6">
-				<h3>&copy; <span id="footer-year"></span> By <a href="https://www.mihailungu.com"><u><font color="#1102B5">Mihai Lungu</font></u></a> </h3>
+				<h3>&copy; <span id="footer-year"></span> By <a href="https://www.mihailungu.com"><font color="white"><u>Mihai Lungu</u></font></a> </h3>
 			</div>
 			<div class="col-md-6">
-				<h3 style="text-align: right;">Updated 29.12.2024 20:30</h3>
-				<h5 style="text-align: right;"><a href="whats-news/"><u><font color="#1102B5">Whats news</font></u></a></h5>
+				<h3 id="updateInfo" style="text-align: right;"></h3>
+
+    <script>
+        // Function to fetch and display the update information
+        async function fetchUpdateInfo() {
+            try {
+                const response = await fetch('updateInfo.json');
+                const data = await response.json();
+                document.getElementById('updateInfo').innerText = data.updated;
+            } catch (error) {
+                console.error('Error fetching the update information:', error);
+            }
+        }
+
+        // Call the function to fetch and display the update information
+        fetchUpdateInfo();
+    </script>
+				<h5 style="text-align: right;"><a href="whats-news/"><font color="white"><u>Whats news</u></font></a></h5>
 			</div>
 		</div>
 	
