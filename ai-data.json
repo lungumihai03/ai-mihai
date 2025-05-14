@@ -1,297 +1,15 @@
 [
   {
-    "title": "Theb.ai",
-    "description": "Is an all-in-one AI platform with a wide range of models, from language to image processing, accessible through a user-friendly interface or a unified API.",
-    "link": "https://beta.theb.ai/home ",
-    "image": "theb-ai.webp"
+    "title": "Qwen AI",
+    "description": "I'm Qwen, a large language model developed by Alibaba Cloud to assist with various tasks and provide accurate information.",
+    "link": "https://chat.qwen.ai/chat ",
+    "image": "https://assets.alicdn.com/g/qwenweb/qwen-webui-fe/0.0.93/favicon.png"
   },
   {
-    "title": "ChatGPT",
-    "description": "Capable of generating human-like text, answering questions, and performing various tasks like writing articles, emails, and code.",
-    "link": "https://chatgpt.com/ ",
-    "image": "https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.82af6fe1.png "
-  },
-  {
-    "title": "BLACKBOX AI",
-    "description": "AI-powered coding assistant that helps developers with code generation, completion, search, and image analysis.",
-    "link": "https://www.blackbox.ai/ ",
-    "image": "https://www.blackbox.ai/favicon.ico "
-  },
-  {
-    "title": "Microsoft Designer",
-    "description": "AI-powered graphic design and image editing app that helps you create stunning designs in seconds.",
-    "link": "https://designer.microsoft.com/ ",
-    "image": "https://designer.microsoft.com/static/media/designer-app-logo.c270ec3147032a913024e7fa63cff2aa.svg "
-  },
-  {
-    "title": "Gemini",
-    "description": "AI assistant, built on the power of generative AI. It's available on Google Pixel phones and is integrated with Google Assistant.",
-    "link": "https://gemini.google.com/app ",
-    "image": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_advanced_1743d7b7a7bc01f38e6f4.svg "
-  },
-  {
-    "title": "Writesonic",
-    "description": "AI-powered writing platform that offers a suite of tools to help you create high-quality content, optimize it for SEO, and build AI chatbots.",
-    "link": "https://app.writesonic.com/library/bd2b1696-fe53-4276-b33b-d86308d4fd96/all ",
-    "image": "https://app.writesonic.com/_next/static/media/writesonic-logo.8cef9907.svg "
-  },
-  {
-    "title": "Copilot",
-    "description": "AI-powered assistant designed to help you find relevant information across your organization.",
-    "link": "https://copilot.microsoft.com/ ",
-    "image": "https://copilot.microsoft.com/rp/vE266_E90czuUc-Fs55Qoq9hIBc.svg "
-  },
-  {
-    "title": "Deep AI",
-    "description": "AI chatbot that can be used for various purposes, such as writing stories, messages, or programming code.",
-    "link": "https://deepai.org/chat ",
-    "image": "https://deepai.org/static/images/favicon.ico "
-  },
-  {
-    "title": "Durable",
-    "description": "AI-powered website builder and small business software platform designed to help entrepreneurs launch and manage their businesses.",
-    "link": "https://durable.co/ ",
-    "image": "https://cdn.prod.website-files.com/632df91dd7c99c0ac992c47b/633209f841779258877b02b1_favicon.png "
-  },
-  {
-    "title": "Forefront",
-    "description": "Is a conversational AI platform that allows users to interact with AI models in a natural, human-like way.",
-    "link": "https://chat.forefront.ai/ ",
-    "image": "https://uploads-ssl.webflow.com/628193922a4d18e69ba81f14/628193922a4d180bf1a81f46_Favicon.png "
-  },
-  {
-    "title": "Fotor",
-    "description": "is a free online photo editor that offers a wide range of tools for enhancing and editing photos.",
-    "link": "https://www.fotor.com/ ",
-    "image": "https://static.fotor.com/web/_next/static/images/favicon-d4b8dbe4630a2bc790117e61267bbb33.png "
-  },
-  {
-    "title": "Perplexity",
-    "description": "is an AI-powered search engine that aims to provide more comprehensive and informative answers to user queries.",
-    "link": "https://www.perplexity.ai/ ",
-    "image": "https://www.perplexity.ai/favicon.svg "
-  },
-  {
-    "title": "Jasper",
-    "description": "is an AI-powered writing tool designed to help businesses create high-quality marketing content faster and more efficiently.",
-    "link": "https://www.jasper.ai/ ",
-    "image": "https://cdn.prod.website-files.com/60e5f2de011b86acebc30db7/666f33302a54fab58083c231_Favicon.png "
-  },
-  {
-    "title": "YOU",
-    "description": "is a search engine that aims to provide users with more comprehensive and informative answers to their queries.",
-    "link": "https://you.com/?chatMode=default ",
-    "image": "https://you.com/favicon/apple-touch-icon-114x114.png "
-  },
-  {
-    "title": "HuggingChat",
-    "description": "is a platform that provides access to a variety of AI chat models developed by the community.",
-    "link": "https://huggingface.co/chat/ ",
-    "image": "https://huggingface.co/chat/huggingchat/icon.svg "
-  },
-  {
-    "title": "TextCortex",
-    "description": "is an AI-powered writing assistant that aims to help users create high-quality content faster and more efficiently",
-    "link": "https://textcortex.com/ ",
-    "image": "https://cdn.prod.website-files.com/622611a2b23d0e1ab20fba78/627d0094e230d5fc32c417fb_TextCortex%20favicon%20256.png "
-  },
-  {
-    "title": "Claude",
-    "description": "is an AI chatbot developed by Anthropic, designed to be helpful, harmless, and honest.",
-    "link": "https://claude.ai/new ",
-    "image": "https://claude.ai/images/claude_app_icon.png "
-  },
-  {
-    "title": "Bito AI",
-    "description": "is a platform designed to help developers write better code faster by leveraging the power of AI.",
-    "link": "https://bito.ai/ ",
-    "image": "https://bito.ai/wp-content/uploads/2022/03/cropped-android-icon-192x192-1-192x192.png "
-  },
-  {
-    "title": "FusionBrain",
-    "description": "is an AI-powered image generation and editing platform based on the Kandinsky neural network.",
-    "link": "https://fusionbrain.ai/en/editor/ ",
-    "image": "https://fusionbrain.ai/favicon-76.png "
-  },
-  {
-    "title": "Muse AI",
-    "description": "is a comprehensive video platform that simplifies video management, hosting, and distribution for individuals, teams, and businesses.",
-    "link": "https://muse.ai/ ",
-    "image": "https://muse.ai/static/imgs/favicons/safari-pinned-tab.svg "
-  },
-  {
-    "title": "Kits AI",
-    "description": "is a web-based platform that uses AI to transform your voice into different voices, create custom voices, and enhance your music production.",
-    "link": "https://app.kits.ai/convert ",
-    "image": "https://app.kits.ai/apple-touch-icon.png "
-  },
-  {
-    "title": "Tome app",
-    "description": "is an AI-powered storytelling platform designed to help sales teams create engaging presentations and streamline their sales process.n",
-    "link": "https://tome.app/my-space-mihai ",
-    "image": "https://tome.app/assets/favicon-192x192.png "
-  },
-  {
-    "title": "Liaobots",
-    "description": "is a platform that provides access to various AI models, including both paid and open-source models.",
-    "link": "https://liaobots.com/en ",
-    "image": "https://liaobots.com/favicon.ico "
-  },
-  {
-    "title": "AI.LS",
-    "description": "is a web-based platform that offers an alternative user interface for ChatGPT, providing a more streamlined and elegant experience.",
-    "link": "https://liaobots.com/en ",
-    "image": "https://ai.ls/favicon.ico "
-  },
-  {
-    "title": "EasyChat",
-    "description": "is a web-based platform that provides a user-friendly interface for interacting with various AI models, including ChatGPT, Claude, and Bard.",
-    "link": "https://next.eqing.tech/ #/chat",
-    "image": "https://next.eqing.tech/favicon.ico "
-  },
-  {
-    "title": "CodePal",
-    "description": "is a comprehensive AI-powered platform designed to assist developers of all skill levels.",
-    "link": "https://codepal.ai/ ",
-    "image": "https://codepal.ai/static/img/favicon.ico?cache_control=43afd8c20682c3c4041851253d4800e428621873 "
-  },
-  {
-    "title": "Gamma",
-    "description": "is a web-based platform that provides a collaborative workspace for teams to brainstorm, plan, and manage projects.",
-    "link": "https://gamma.app/ ",
-    "image": "https://gamma.app/favicons/favicon-192.svg "
-  },
-  {
-    "title": "Eden AI",
-    "description": "is a platform that simplifies the integration of Artificial Intelligence (AI) into applications and projects.",
-    "link": "https://www.edenai.co/ ",
-    "image": "https://cdn.prod.website-files.com/61e7d259b7746e2d1df0b68d/621dcbfc999a57b1b4694c19_edenlogowebclip.png "
-  },
-  {
-    "title": "Leonardo AI",
-    "description": "is an AI-powered platform designed to empower creators with a suite of tools for generating and enhancing digital content, particularly images.",
-    "link": "https://app.leonardo.ai/ ",
-    "image": "https://app.leonardo.ai/_next/image?url=%2Fimg%2Fleonardo-logo.png&w=96&q=75 "
-  },
-  {
-    "title": "Poe",
-    "description": "is a platform that provides a fast and convenient way to interact with various AI models, including ChatGPT, GPT-4o, Claude 3 Opus, DALLE 3, and many others.",
-    "link": "https://poe.com/ ",
-    "image": "https://psc2.cf2.poecdn.net/assets/favicon.svg "
-  },
-  {
-    "title": "NotebookLM",
-    "description": "is an experimental AI-powered note-taking and research assistant developed by Google Labs.<br>(Necesar VPN)",
-    "link": "https://notebooklm.google/ ",
-    "image": "https://notebooklm.google/_/static/v2/Favicon/Standard/apple-touch-icon.png "
-  },
-  {
-    "title": "Groq",
-    "description": "is a company specializing in hardware and software solutions for accelerating AI inference.",
-    "link": "https://groq.com/ ",
-    "image": "https://groq.com/favicon.ico "
-  },
-  {
-    "title": "LimeWire",
-    "description": "is a platform that offers a range of AI-powered tools for content creation and manipulation, including image generation, audio creation, and image editing.",
-    "link": "https://limewire.com/ ",
-    "image": "https://limewire.com/apple-touch-icon.png "
-  },
-  {
-    "title": "Presentations.AI",
-    "description": "is an AI-powered presentation maker that simplifies the process of creating professional and engaging presentations.",
-    "link": "https://app.presentations.ai/ #/ideatodeck",
-    "image": "https://cdn.presentations.ai/docs/brand/pai/pai.ico "
-  },
-  {
-    "title": "Supertools",
-    "description": "is a website that serves as a comprehensive guide to the best AI tools available across various categories.",
-    "link": "https://app.presentations.ai/ #/ideatodeck",
-    "image": "https://assets.super.so/9b1db7dc-155d-4da6-bf88-a68ad1c2af0f/uploads/favicon/f4df662c-f46b-41d1-8e0c-9d0ef23e6a93.png "
-  },
-  {
-    "title": "Solo",
-    "description": "is an AI-powered website builder designed specifically for solopreneurs and small businesses.",
-    "link": "https://soloist.ai/onboarding ",
-    "image": "https://soloist.ai/favicon/apple-touch-icon.png "
-  },
-  {
-    "title": "Ernie 4 Bot",
-    "description": "is a multimodal AI chatbot developed by Baidu. It can generate text, images, and videos, and has been integrated into Baidu's search engine and other tools.",
-    "link": "https://yiyan.baidu.com/ ",
-    "image": "https://nlp-eb.cdn.bcebos.com/logo/favicon.ico "
-  },
-  {
-    "title": "Meta AI",
-    "description": "is a virtual assistant that can answer questions, generate photorealistic images, and more.",
-    "link": "https://www.meta.ai/ ",
-    "image": "https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/KR57YnNJ9wh.png "
-  },
-  {
-    "title": "Luma",
-    "description": "is an AI model that uses cutting-edge technology to create high-quality, realistic videos from text and images.",
-    "link": "https://lumalabs.ai/dream-machine/creations ",
-    "image": "https://cdn-luma.com/public/captures.lumalabs.ai/images/logo.svg "
-  },
-  {
-    "title": "AnyTopic",
-    "description": "is a website that offers a free AI-powered tool to help users generate unique, original, and engaging content for various purposes.",
-    "link": "https://www.anytopic.io/ ",
-    "image": "https://www.anytopic.io/favicon.ico "
-  },
-  {
-    "title": "AIlist ru",
-    "description": "Бесплатные нейросети и AI инструменты из России. Подборки бесплатных сервисов для работы, учебы и творчества",
-    "link": "https://ailist.ru/free/ ",
-    "image": "https://ailist.ru/wp-content/uploads/2024/06/cropped-favicon-32x32.webp "
-  },
-  {
-    "title": "Toolfolio",
-    "description": "helps you find the best tools for productivity, creativity, and design. Explore top solutions for startups, social media, AI, and more to optimize your workflow.",
-    "link": "https://toolfolio.io/ ",
-    "image": "https://framerusercontent.com/images/9ByHhUNaWqyS1a9DYzxwg89yFG4.jpg "
-  },
-  {
-    "title": "Giz AI",
-    "description": "Capable of generating human-like text, answering questions, and performing various tasks like writing articles, emails, and code.",
-    "link": "https://app.giz.ai/assistant/ ",
-    "image": "https://www.giz.ai/wp-content/uploads/2024/07/favicon-128x128-1.png "
-  },
-  {
-    "title": "Chat pdf",
-    "description": "ChatPDF brings ChatGPT-style intelligence and PDF AI technology together for smarter document understanding. Summarize, chat, and analyze.",
-    "link": "https://www.chatpdf.com/ ",
-    "image": "https://www.chatpdf.com/favicon.ico "
-  },
-  {
-    "title": "Studyz AI",
-    "description": "Get instant step-by-step solutions for all subjects with StudyX AI homework helper, powered by top models like o1, Claude 3.5, GPT-4o and Gemini 1.5, available 24/7 with AI tutor and community support.",
-    "link": "https://studyx.ai/ ",
-    "image": "https://studyx.ai/favicon.ico "
-  },
-  {
-    "title": "Studyable",
-    "description": "Studyable is the #1 free AI-powered study app. Get instant step-by-step homework help for every subject, chat with AI tutors that can do math and see images, and receive instant feedback on your essays from Essay Grader.",
-    "link": "https://studyable.app/ ",
-    "image": "https://studyable.app/favicon.ico "
-  },
-  {
-    "title": "Unstuckstudy",
-    "description": "Unstuck transforms your PDFs, PowerPoints, YouTube videos, lectures, textbook, and class notes into trusted study tools.",
-    "link": "https://unstuckstudy.com/ ",
-    "image": "https://unstuckstudy.com/favicon.ico "
-  },
-  {
-    "title": "Invideo",
-    "description": "Make videos easily by giving a prompt to invideo AI. Ideal for content creators, YouTubers and marketers, invideo AI offers a seamless way to turn your ideas into publish-ready videos with AI.",
-    "link": "https://ai.invideo.io/ ",
-    "image": "https://ai.invideo.io/favicon.ico "
-  },
-  {
-    "title": "Grok",
-    "description": "I'm Grok 3, an AI built by xAI, designed to provide maximally helpful answers with a dash of humor and an outside perspective on humanity. I love exploring the universe, one question at a time!",
-    "link": "https://grok.com/ ",
-    "image": "https://th.bing.com/th/id/OIP.puTtIsfpfyhZ6RSgTSecswHaHa?cb=iwp2&rs=1&pid=ImgDetMain "
+    "title": "Mistral AI",
+    "description": "I am a helpful and knowledgeable AI assistant, designed to provide accurate and relevant information based on the input I receive.",
+    "link": "https://chat.mistral.ai/chat ",
+    "image": "https://chat.mistral.ai/favicon.ico "
   },
   {
     "title": "DeepSeek",
@@ -300,15 +18,297 @@
     "image": "https://cdn.deepseek.com/chat/icon.png "
   },
   {
-    "title": "Mistral AI",
-    "description": "I am a helpful and knowledgeable AI assistant, designed to provide accurate and relevant information based on the input I receive.",
-    "link": "https://chat.mistral.ai/chat ",
-    "image": "https://chat.mistral.ai/favicon.ico "
+    "title": "Grok",
+    "description": "I'm Grok 3, an AI built by xAI, designed to provide maximally helpful answers with a dash of humor and an outside perspective on humanity. I love exploring the universe, one question at a time!",
+    "link": "https://grok.com/ ",
+    "image": "https://th.bing.com/th/id/OIP.puTtIsfpfyhZ6RSgTSecswHaHa?cb=iwp2&rs=1&pid=ImgDetMain "
   },
-    {
-    "title": "Qwen AI",
-    "description": "I'm Qwen, a large language model developed by Alibaba Cloud to assist with various tasks and provide accurate information.",
-    "link": "https://chat.qwen.ai/chat ",
-    "image": "https://assets.alicdn.com/g/qwenweb/qwen-webui-fe/0.0.93/favicon.png"
+  {
+    "title": "Invideo",
+    "description": "Make videos easily by giving a prompt to invideo AI. Ideal for content creators, YouTubers and marketers, invideo AI offers a seamless way to turn your ideas into publish-ready videos with AI.",
+    "link": "https://ai.invideo.io/ ",
+    "image": "https://ai.invideo.io/favicon.ico "
+  },
+  {
+    "title": "Unstuckstudy",
+    "description": "Unstuck transforms your PDFs, PowerPoints, YouTube videos, lectures, textbook, and class notes into trusted study tools.",
+    "link": "https://unstuckstudy.com/ ",
+    "image": "https://unstuckstudy.com/favicon.ico "
+  },
+  {
+    "title": "Studyable",
+    "description": "Studyable is the #1 free AI-powered study app. Get instant step-by-step homework help for every subject, chat with AI tutors that can do math and see images, and receive instant feedback on your essays from Essay Grader.",
+    "link": "https://studyable.app/ ",
+    "image": "https://studyable.app/favicon.ico "
+  },
+  {
+    "title": "Studyz AI",
+    "description": "Get instant step-by-step solutions for all subjects with StudyX AI homework helper, powered by top models like o1, Claude 3.5, GPT-4o and Gemini 1.5, available 24/7 with AI tutor and community support.",
+    "link": "https://studyx.ai/ ",
+    "image": "https://studyx.ai/favicon.ico "
+  },
+  {
+    "title": "Chat pdf",
+    "description": "ChatPDF brings ChatGPT-style intelligence and PDF AI technology together for smarter document understanding. Summarize, chat, and analyze.",
+    "link": "https://www.chatpdf.com/ ",
+    "image": "https://www.chatpdf.com/favicon.ico "
+  },
+  {
+    "title": "Giz AI",
+    "description": "Capable of generating human-like text, answering questions, and performing various tasks like writing articles, emails, and code.",
+    "link": "https://app.giz.ai/assistant/ ",
+    "image": "https://www.giz.ai/wp-content/uploads/2024/07/favicon-128x128-1.png "
+  },
+  {
+    "title": "Toolfolio",
+    "description": "helps you find the best tools for productivity, creativity, and design. Explore top solutions for startups, social media, AI, and more to optimize your workflow.",
+    "link": "https://toolfolio.io/ ",
+    "image": "https://framerusercontent.com/images/9ByHhUNaWqyS1a9DYzxwg89yFG4.jpg "
+  },
+  {
+    "title": "AIlist ru",
+    "description": "Бесплатные нейросети и AI инструменты из России. Подборки бесплатных сервисов для работы, учебы и творчества",
+    "link": "https://ailist.ru/free/ ",
+    "image": "https://ailist.ru/wp-content/uploads/2024/06/cropped-favicon-32x32.webp "
+  },
+  {
+    "title": "AnyTopic",
+    "description": "is a website that offers a free AI-powered tool to help users generate unique, original, and engaging content for various purposes.",
+    "link": "https://www.anytopic.io/ ",
+    "image": "https://www.anytopic.io/favicon.ico "
+  },
+  {
+    "title": "Luma",
+    "description": "is an AI model that uses cutting-edge technology to create high-quality, realistic videos from text and images.",
+    "link": "https://lumalabs.ai/dream-machine/creations ",
+    "image": "https://cdn-luma.com/public/captures.lumalabs.ai/images/logo.svg "
+  },
+  {
+    "title": "Meta AI",
+    "description": "is a virtual assistant that can answer questions, generate photorealistic images, and more.",
+    "link": "https://www.meta.ai/ ",
+    "image": "https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/KR57YnNJ9wh.png "
+  },
+  {
+    "title": "Ernie 4 Bot",
+    "description": "is a multimodal AI chatbot developed by Baidu. It can generate text, images, and videos, and has been integrated into Baidu's search engine and other tools.",
+    "link": "https://yiyan.baidu.com/ ",
+    "image": "https://nlp-eb.cdn.bcebos.com/logo/favicon.ico "
+  },
+  {
+    "title": "Solo",
+    "description": "is an AI-powered website builder designed specifically for solopreneurs and small businesses.",
+    "link": "https://soloist.ai/onboarding ",
+    "image": "https://soloist.ai/favicon/apple-touch-icon.png "
+  },
+  {
+    "title": "Supertools",
+    "description": "is a website that serves as a comprehensive guide to the best AI tools available across various categories.",
+    "link": "https://app.presentations.ai/ #/ideatodeck",
+    "image": "https://assets.super.so/9b1db7dc-155d-4da6-bf88-a68ad1c2af0f/uploads/favicon/f4df662c-f46b-41d1-8e0c-9d0ef23e6a93.png "
+  },
+  {
+    "title": "Presentations.AI",
+    "description": "is an AI-powered presentation maker that simplifies the process of creating professional and engaging presentations.",
+    "link": "https://app.presentations.ai/ #/ideatodeck",
+    "image": "https://cdn.presentations.ai/docs/brand/pai/pai.ico "
+  },
+  {
+    "title": "LimeWire",
+    "description": "is a platform that offers a range of AI-powered tools for content creation and manipulation, including image generation, audio creation, and image editing.",
+    "link": "https://limewire.com/ ",
+    "image": "https://limewire.com/apple-touch-icon.png "
+  },
+  {
+    "title": "Groq",
+    "description": "is a company specializing in hardware and software solutions for accelerating AI inference.",
+    "link": "https://groq.com/ ",
+    "image": "https://groq.com/favicon.ico "
+  },
+  {
+    "title": "NotebookLM",
+    "description": "is an experimental AI-powered note-taking and research assistant developed by Google Labs.<br>(Necesar VPN)",
+    "link": "https://notebooklm.google/ ",
+    "image": "https://notebooklm.google/_/static/v2/Favicon/Standard/apple-touch-icon.png "
+  },
+  {
+    "title": "Poe",
+    "description": "is a platform that provides a fast and convenient way to interact with various AI models, including ChatGPT, GPT-4o, Claude 3 Opus, DALLE 3, and many others.",
+    "link": "https://poe.com/ ",
+    "image": "https://psc2.cf2.poecdn.net/assets/favicon.svg "
+  },
+  {
+    "title": "Leonardo AI",
+    "description": "is an AI-powered platform designed to empower creators with a suite of tools for generating and enhancing digital content, particularly images.",
+    "link": "https://app.leonardo.ai/ ",
+    "image": "https://app.leonardo.ai/_next/image?url=%2Fimg%2Fleonardo-logo.png&w=96&q=75 "
+  },
+  {
+    "title": "Eden AI",
+    "description": "is a platform that simplifies the integration of Artificial Intelligence (AI) into applications and projects.",
+    "link": "https://www.edenai.co/ ",
+    "image": "https://cdn.prod.website-files.com/61e7d259b7746e2d1df0b68d/621dcbfc999a57b1b4694c19_edenlogowebclip.png "
+  },
+  {
+    "title": "Gamma",
+    "description": "is a web-based platform that provides a collaborative workspace for teams to brainstorm, plan, and manage projects.",
+    "link": "https://gamma.app/ ",
+    "image": "https://gamma.app/favicons/favicon-192.svg "
+  },
+  {
+    "title": "CodePal",
+    "description": "is a comprehensive AI-powered platform designed to assist developers of all skill levels.",
+    "link": "https://codepal.ai/ ",
+    "image": "https://codepal.ai/static/img/favicon.ico?cache_control=43afd8c20682c3c4041851253d4800e428621873 "
+  },
+  {
+    "title": "EasyChat",
+    "description": "is a web-based platform that provides a user-friendly interface for interacting with various AI models, including ChatGPT, Claude, and Bard.",
+    "link": "https://next.eqing.tech/ #/chat",
+    "image": "https://next.eqing.tech/favicon.ico "
+  },
+  {
+    "title": "AI.LS",
+    "description": "is a web-based platform that offers an alternative user interface for ChatGPT, providing a more streamlined and elegant experience.",
+    "link": "https://liaobots.com/en ",
+    "image": "https://ai.ls/favicon.ico "
+  },
+  {
+    "title": "Liaobots",
+    "description": "is a platform that provides access to various AI models, including both paid and open-source models.",
+    "link": "https://liaobots.com/en ",
+    "image": "https://liaobots.com/favicon.ico "
+  },
+  {
+    "title": "Tome app",
+    "description": "is an AI-powered storytelling platform designed to help sales teams create engaging presentations and streamline their sales process.n",
+    "link": "https://tome.app/my-space-mihai ",
+    "image": "https://tome.app/assets/favicon-192x192.png "
+  },
+  {
+    "title": "Kits AI",
+    "description": "is a web-based platform that uses AI to transform your voice into different voices, create custom voices, and enhance your music production.",
+    "link": "https://app.kits.ai/convert ",
+    "image": "https://app.kits.ai/apple-touch-icon.png "
+  },
+  {
+    "title": "Muse AI",
+    "description": "is a comprehensive video platform that simplifies video management, hosting, and distribution for individuals, teams, and businesses.",
+    "link": "https://muse.ai/ ",
+    "image": "https://muse.ai/static/imgs/favicons/safari-pinned-tab.svg "
+  },
+  {
+    "title": "FusionBrain",
+    "description": "is an AI-powered image generation and editing platform based on the Kandinsky neural network.",
+    "link": "https://fusionbrain.ai/en/editor/ ",
+    "image": "https://fusionbrain.ai/favicon-76.png "
+  },
+  {
+    "title": "Bito AI",
+    "description": "is a platform designed to help developers write better code faster by leveraging the power of AI.",
+    "link": "https://bito.ai/ ",
+    "image": "https://bito.ai/wp-content/uploads/2022/03/cropped-android-icon-192x192-1-192x192.png "
+  },
+  {
+    "title": "Claude",
+    "description": "is an AI chatbot developed by Anthropic, designed to be helpful, harmless, and honest.",
+    "link": "https://claude.ai/new ",
+    "image": "https://claude.ai/images/claude_app_icon.png "
+  },
+  {
+    "title": "TextCortex",
+    "description": "is an AI-powered writing assistant that aims to help users create high-quality content faster and more efficiently",
+    "link": "https://textcortex.com/ ",
+    "image": "https://cdn.prod.website-files.com/622611a2b23d0e1ab20fba78/627d0094e230d5fc32c417fb_TextCortex%20favicon%20256.png "
+  },
+  {
+    "title": "HuggingChat",
+    "description": "is a platform that provides access to a variety of AI chat models developed by the community.",
+    "link": "https://huggingface.co/chat/ ",
+    "image": "https://huggingface.co/chat/huggingchat/icon.svg "
+  },
+  {
+    "title": "YOU",
+    "description": "is a search engine that aims to provide users with more comprehensive and informative answers to their queries.",
+    "link": "https://you.com/?chatMode=default ",
+    "image": "https://you.com/favicon/apple-touch-icon-114x114.png "
+  },
+  {
+    "title": "Jasper",
+    "description": "is an AI-powered writing tool designed to help businesses create high-quality marketing content faster and more efficiently.",
+    "link": "https://www.jasper.ai/ ",
+    "image": "https://cdn.prod.website-files.com/60e5f2de011b86acebc30db7/666f33302a54fab58083c231_Favicon.png "
+  },
+  {
+    "title": "Perplexity",
+    "description": "is an AI-powered search engine that aims to provide more comprehensive and informative answers to user queries.",
+    "link": "https://www.perplexity.ai/ ",
+    "image": "https://www.perplexity.ai/favicon.svg "
+  },
+  {
+    "title": "Fotor",
+    "description": "is a free online photo editor that offers a wide range of tools for enhancing and editing photos.",
+    "link": "https://www.fotor.com/ ",
+    "image": "https://static.fotor.com/web/_next/static/images/favicon-d4b8dbe4630a2bc790117e61267bbb33.png "
+  },
+  {
+    "title": "Forefront",
+    "description": "Is a conversational AI platform that allows users to interact with AI models in a natural, human-like way.",
+    "link": "https://chat.forefront.ai/ ",
+    "image": "https://uploads-ssl.webflow.com/628193922a4d18e69ba81f14/628193922a4d180bf1a81f46_Favicon.png "
+  },
+  {
+    "title": "Durable",
+    "description": "AI-powered website builder and small business software platform designed to help entrepreneurs launch and manage their businesses.",
+    "link": "https://durable.co/ ",
+    "image": "https://cdn.prod.website-files.com/632df91dd7c99c0ac992c47b/633209f841779258877b02b1_favicon.png "
+  },
+  {
+    "title": "Deep AI",
+    "description": "AI chatbot that can be used for various purposes, such as writing stories, messages, or programming code.",
+    "link": "https://deepai.org/chat ",
+    "image": "https://deepai.org/static/images/favicon.ico "
+  },
+  {
+    "title": "Copilot",
+    "description": "AI-powered assistant designed to help you find relevant information across your organization.",
+    "link": "https://copilot.microsoft.com/ ",
+    "image": "https://copilot.microsoft.com/rp/vE266_E90czuUc-Fs55Qoq9hIBc.svg "
+  },
+  {
+    "title": "Writesonic",
+    "description": "AI-powered writing platform that offers a suite of tools to help you create high-quality content, optimize it for SEO, and build AI chatbots.",
+    "link": "https://app.writesonic.com/library/bd2b1696-fe53-4276-b33b-d86308d4fd96/all ",
+    "image": "https://app.writesonic.com/_next/static/media/writesonic-logo.8cef9907.svg "
+  },
+  {
+    "title": "Gemini",
+    "description": "AI assistant, built on the power of generative AI. It's available on Google Pixel phones and is integrated with Google Assistant.",
+    "link": "https://gemini.google.com/app ",
+    "image": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_advanced_1743d7b7a7bc01f38e6f4.svg "
+  },
+  {
+    "title": "Microsoft Designer",
+    "description": "AI-powered graphic design and image editing app that helps you create stunning designs in seconds.",
+    "link": "https://designer.microsoft.com/ ",
+    "image": "https://designer.microsoft.com/static/media/designer-app-logo.c270ec3147032a913024e7fa63cff2aa.svg "
+  },
+  {
+    "title": "BLACKBOX AI",
+    "description": "AI-powered coding assistant that helps developers with code generation, completion, search, and image analysis.",
+    "link": "https://www.blackbox.ai/ ",
+    "image": "https://www.blackbox.ai/favicon.ico "
+  },
+  {
+    "title": "ChatGPT",
+    "description": "Capable of generating human-like text, answering questions, and performing various tasks like writing articles, emails, and code.",
+    "link": "https://chatgpt.com/ ",
+    "image": "https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.82af6fe1.png "
+  },
+  {
+    "title": "Theb.ai",
+    "description": "Is an all-in-one AI platform with a wide range of models, from language to image processing, accessible through a user-friendly interface or a unified API.",
+    "link": "https://beta.theb.ai/home ",
+    "image": "theb-ai.webp"
   }
 ]
