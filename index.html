@@ -9,20 +9,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <title>             AI</title>
 	<style>
-		
-		.photo {
-    margin-top: 16px;
-    width: 80%; /* Ajustare automată pentru dispozitive mici */
-    max-width: 100px;
-    height: auto; /* Păstrează proporțiile */
-    border-radius: 10px;
-    cursor: pointer;
+		row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; /* Centrare pe dispozitive mici */
 }
-
-.title, .information {
-    text-align: left;
-    margin: 0; /* Elimină marginile negative */
-    cursor: pointer;
+.container {
+	width: auto; /* Lățime maximă pentru desktop */
+	margin: 0 auto; /* Centrare pe pagină */
+	padding: 20px;
 }
 
 .head {
@@ -37,11 +32,25 @@
     backdrop-filter: blur(10px);
     text-align: center; /* Centrare pe dispozitive mici */
 }
+		.photo {
+    margin-top: 16px;
+    width: 80%; /* Ajustare automată pentru dispozitive mici */
+    max-width: 100px;
+    height: auto; /* Păstrează proporțiile */
+    border-radius: 10px;
+    cursor: pointer;
+}
 
+.title, .information {
+    text-align: left;
+    margin: 0; /* Elimină marginile negative */
+    cursor: pointer;
+}
 .ai {
     width: 100%; /* Lățime completă pentru dispozitive mici */
     max-width: 580px;
-    min-height: 170px;
+    min-height: 200px;
+	min-width: 300px;
     height: auto;
     background-color: rgba(255, 255, 255, 0.15);
     color: white;
@@ -105,775 +114,8 @@ body {
 	<script type="text/javascript" src="https://media.mihailungu.com/resources/newyear/newyear.js"></script>
 	<br>
 
-	
-	<div class="row" align="center">
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://beta.theb.ai/home')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="theb-ai.webp">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Theb.ai</h1>
-					<h4 class="information">Is an all-in-one AI platform with a wide range of models, from language to 
-						image processing, accessible through a user-friendly interface or a unified API.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://chatgpt.com/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.82af6fe1.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">ChatGPT</h1>
-					<h4 class="information">Capable of generating human-like text, answering questions, and performing various tasks like writing articles, emails, and code.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://www.blackbox.ai/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://www.blackbox.ai/favicon.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">BLACKBOX AI</h1>
-					<h4 class="information">AI-powered coding assistant that helps developers with code generation, completion, search, and image analysis.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-	</div>
-
-
-	<div class="row" align="center">
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://designer.microsoft.com/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://designer.microsoft.com/static/media/designer-app-logo.c270ec3147032a913024e7fa63cff2aa.svg">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Microsoft Designer</h1>
-					<h4 class="information">AI-powered graphic design and image editing app that helps you create stunning designs in seconds.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://gemini.google.com/app')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://www.gstatic.com/lamda/images/gemini_sparkle_v002_advanced_1743d7b7a7bc01f38e6f4.svg">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Gemini</h1>
-					<h4 class="information">AI assistant, built on the power of generative AI. It's available on Google Pixel phones and is integrated with Google Assistant.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://app.writesonic.com/library/bd2b1696-fe53-4276-b33b-d86308d4fd96/all')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://app.writesonic.com/_next/static/media/writesonic-logo.8cef9907.svg">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Writesonic</h1>
-					<h4 class="information">AI-powered writing platform that offers a suite of tools to help you create high-quality content, optimize it for SEO, and build AI chatbots.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-	</div>
-
-<div class="row" align="center">
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://copilot.microsoft.com/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://copilot.microsoft.com/rp/vE266_E90czuUc-Fs55Qoq9hIBc.svg">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Copilot</h1>
-					<h4 class="information">AI-powered assistant designed to help you find relevant information across your organization.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://deepai.org/chat')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://deepai.org/static/images/favicon.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Deep AI</h1>
-					<h4 class="information">AI chatbot that can be used for various purposes, such as writing stories, messages, or programming code.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://durable.co/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://cdn.prod.website-files.com/632df91dd7c99c0ac992c47b/633209f841779258877b02b1_favicon.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Durable</h1>
-					<h4 class="information">AI-powered website builder and small business software platform designed to help entrepreneurs launch and manage their businesses.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-	</div>
-
-	<div class="row" align="center">
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://chat.forefront.ai/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://uploads-ssl.webflow.com/628193922a4d18e69ba81f14/628193922a4d180bf1a81f46_Favicon.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Forefront</h1>
-					<h4 class="information">Is a conversational AI platform that allows users to interact with AI models in a natural, human-like way.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://www.fotor.com/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://static.fotor.com/web/_next/static/images/favicon-d4b8dbe4630a2bc790117e61267bbb33.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Fotor</h1>
-					<h4 class="information">is a free online photo editor that offers a wide range of tools for enhancing and editing photos.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://www.perplexity.ai/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://www.perplexity.ai/favicon.svg">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Perplexity</h1>
-					<h4 class="information">is an AI-powered search engine that aims to provide more comprehensive and informative answers to user queries.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-	</div>
-	<div class="row" align="center">
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://www.jasper.ai/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://cdn.prod.website-files.com/60e5f2de011b86acebc30db7/666f33302a54fab58083c231_Favicon.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Jasper</h1>
-					<h4 class="information">is an AI-powered writing tool designed to help businesses create high-quality marketing content faster and more efficiently.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://you.com/?chatMode=default')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://you.com/favicon/apple-touch-icon-114x114.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">YOU</h1>
-					<h4 class="information">is a search engine that aims to provide users with more comprehensive and informative answers to their queries.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://huggingface.co/chat/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://huggingface.co/chat/huggingchat/icon.svg">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">HuggingChat</h1>
-					<h4 class="information">is a platform that provides access to a variety of AI chat models developed by the community.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-	</div>
-
-	<div class="row" align="center">
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://textcortex.com/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://cdn.prod.website-files.com/622611a2b23d0e1ab20fba78/627d0094e230d5fc32c417fb_TextCortex%20favicon%20256.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">TextCortex</h1>
-					<h4 class="information">is an AI-powered writing assistant that aims to help users create high-quality content faster and more efficiently</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://claude.ai/new')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://claude.ai/images/claude_app_icon.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Claude</h1>
-					<h4 class="information">is an AI chatbot developed by Anthropic, designed to be helpful, harmless, and honest.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://bito.ai/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://bito.ai/wp-content/uploads/2022/03/cropped-android-icon-192x192-1-192x192.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Bito AI</h1>
-					<h4 class="information">is a platform designed to help developers write better code faster by leveraging the power of AI.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-	</div>
-
-	<div class="row" align="center">
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://fusionbrain.ai/en/editor/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://fusionbrain.ai/favicon-76.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">FusionBrain</h1>
-					<h4 class="information"> is an AI-powered image generation and editing platform based on the Kandinsky neural network.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://muse.ai/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://muse.ai/static/imgs/favicons/safari-pinned-tab.svg">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Muse AI</h1>
-					<h4 class="information">is a comprehensive video platform that simplifies video management, hosting, and distribution for individuals, teams, and businesses.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://app.kits.ai/convert')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://app.kits.ai/apple-touch-icon.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Kits AI</h1>
-					<h4 class="information">is a web-based platform that uses AI to transform your voice into different voices, create custom voices, and enhance your music production.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-	</div>
-	<div class="row" align="center">
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://tome.app/my-space-mihai')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://tome.app/assets/favicon-192x192.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Tome app</h1>
-					<h4 class="information">is an AI-powered storytelling platform designed to help sales teams create engaging presentations and streamline their sales process.n</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://liaobots.com/en')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://liaobots.com/favicon.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Liaobots</h1>
-					<h4 class="information">is a platform that provides access to various AI models, including both paid and open-source models.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://liaobots.com/en')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://ai.ls/favicon.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">AI.LS</h1>
-					<h4 class="information">is a web-based platform that offers an alternative user interface for ChatGPT, providing a more streamlined and elegant experience.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-	</div>
-	<div class="row" align="center">
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://next.eqing.tech/#/chat')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://next.eqing.tech/favicon.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">EasyChat</h1>
-					<h4 class="information">is a web-based platform that provides a user-friendly interface for interacting with various AI models, including ChatGPT, Claude, and Bard.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://codepal.ai/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://codepal.ai/static/img/favicon.ico?cache_control=43afd8c20682c3c4041851253d4800e428621873">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">CodePal</h1>
-					<h4 class="information">is a comprehensive AI-powered platform designed to assist developers of all skill levels.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://gamma.app/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://gamma.app/favicons/favicon-192.svg">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Gamma</h1>
-					<h4 class="information">is a web-based platform that provides a collaborative workspace for teams to brainstorm, plan, and manage projects.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-	</div>
-	<div class="row" align="center">
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://www.edenai.co/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://cdn.prod.website-files.com/61e7d259b7746e2d1df0b68d/621dcbfc999a57b1b4694c19_edenlogowebclip.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Eden AI</h1>
-					<h4 class="information">is a platform that simplifies the integration of Artificial Intelligence (AI) into applications and projects.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://app.leonardo.ai/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://app.leonardo.ai/_next/image?url=%2Fimg%2Fleonardo-logo.png&w=96&q=75">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Leonardo AI</h1>
-					<h4 class="information">is an AI-powered platform designed to empower creators with a suite of tools for generating and enhancing digital content, particularly images.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://poe.com/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://psc2.cf2.poecdn.net/assets/favicon.svg">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Poe</h1>
-					<h4 class="information">is a platform that provides a fast and convenient way to interact with various AI models, including ChatGPT, GPT-4o, Claude 3 Opus, DALLE 3, and many others.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-	</div>
-	<div class="row" align="center">
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://notebooklm.google/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://notebooklm.google/_/static/v2/Favicon/Standard/apple-touch-icon.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">NotebookLM</h1>
-					<h4 class="information">is an experimental AI-powered note-taking and research assistant developed by Google Labs.<br>
-					(Necesar VPN)
-					</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://groq.com/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://groq.com/favicon.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Groq</h1>
-					<h4 class="information">is a company specializing in hardware and software solutions for accelerating AI inference.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://limewire.com/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://limewire.com/apple-touch-icon.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">LimeWire</h1>
-					<h4 class="information">is a platform that offers a range of AI-powered tools for content creation and manipulation, including image generation, audio creation, and image editing.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-	</div>
-	<div class="row" align="center">
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://app.presentations.ai/#/ideatodeck')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://cdn.presentations.ai/docs/brand/pai/pai.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Presentations.AI</h1>
-					<h4 class="information">is an AI-powered presentation maker that simplifies the process of creating professional and engaging presentations.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://app.presentations.ai/#/ideatodeck')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://assets.super.so/9b1db7dc-155d-4da6-bf88-a68ad1c2af0f/uploads/favicon/f4df662c-f46b-41d1-8e0c-9d0ef23e6a93.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Supertools</h1>
-					<h4 class="information">is a website that serves as a comprehensive guide to the best AI tools available across various categories.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://soloist.ai/onboarding')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://soloist.ai/favicon/apple-touch-icon.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Solo</h1>
-					<h4 class="information">is an AI-powered website builder designed specifically for solopreneurs and small businesses.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-	</div>
-	<div class="row" align="center">
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://yiyan.baidu.com/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://nlp-eb.cdn.bcebos.com/logo/favicon.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Ernie 4 Bot</h1>
-					<h4 class="information">is a multimodal AI chatbot developed by Baidu. It can generate text, images, and videos, and has been integrated into Baidu's search engine and other tools.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://www.meta.ai/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/KR57YnNJ9wh.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Meta AI</h1>
-					<h4 class="information">is a virtual assistant that can answer questions, generate photorealistic images, and more.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://lumalabs.ai/dream-machine/creations')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://cdn-luma.com/public/captures.lumalabs.ai/images/logo.svg">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Luma</h1>
-					<h4 class="information">is an AI model that uses cutting-edge technology to create high-quality, realistic videos from text and images.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-	</div>
-
-	<div class="row" align="center">
-
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://www.anytopic.io/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://www.anytopic.io/favicon.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">AnyTopic</h1>
-					<h4 class="information">is a website that offers a free AI-powered tool to help users generate unique, original, and engaging content for various purposes.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://ailist.ru/free/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://ailist.ru/wp-content/uploads/2024/06/cropped-favicon-32x32.webp">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">AIlist ru</h1>
-					<h4 class="information">Бесплатные нейросети и AI инструменты из России. Подборки бесплатных сервисов для работы, учебы и творчества</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-	
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://toolfolio.io/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://framerusercontent.com/images/9ByHhUNaWqyS1a9DYzxwg89yFG4.jpg">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Toolfolio </h1>
-					<h4 class="information">helps you find the best tools for productivity, creativity, and design. Explore top solutions for startups, social media, AI, and more to optimize your workflow.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-
-</div>
-
-
-	<div class="row" align="center">
-
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://app.giz.ai/assistant/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://www.giz.ai/wp-content/uploads/2024/07/favicon-128x128-1.png">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Giz AI</h1>
-					<h4 class="information">Capable of generating human-like text, answering questions, and performing various tasks like writing articles, emails, and code.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://www.chatpdf.com/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://www.chatpdf.com/favicon.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Chat pdf</h1>
-					<h4 class="information">ChatPDF brings ChatGPT-style intelligence and PDF AI technology together for smarter document understanding. Summarize, chat, and analyze.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-	
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://studyx.ai/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://studyx.ai/favicon.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Studyz AI </h1>
-					<h4 class="information">Get instant step-by-step solutions for all subjects with StudyX AI homework helper, powered by top models like o1, Claude 3.5, GPT-4o and Gemini 1.5, available 24/7 with AI tutor and community support.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-
-</div>
-
-	<div class="row" align="center">
-
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://studyable.app/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://studyable.app/favicon.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Studyable</h1>
-					<h4 class="information">Studyable is the #1 free AI-powered study app. Get instant step-by-step 
-						homework help for every subject, chat with AI tutors that can do math and see images, and 
-						receive instant feedback on your essays from Essay Grader.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://unstuckstudy.com/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://unstuckstudy.com/favicon.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Unstuckstudy</h1>
-					<h4 class="information">Unstuck transforms your PDFs, PowerPoints, YouTube videos, lectures, textbook, and class notes into trusted study tools.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-		
-	
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="ai" onClick="window.open('https://ai.invideo.io/')">
-			<div class="row">
-				<div class="col-xs-4">
-					<img class="photo" src="https://ai.invideo.io/favicon.ico">
-				</div>
-				<div class="col-xs-8">
-			<h1 class="title">Invideo </h1>
-					<h4 class="information">Make videos easily by giving a prompt to invideo AI. Ideal for content creators, 
-						YouTubers and marketers, invideo AI offers a seamless way to turn your ideas into publish-ready videos with AI.</h4>
-					</div>
-				</div>	
-			</div>
-		</div>
-	
-
-</div>
-
-<div class="row" align="center">
-
-	<div class="col-md-4 col-sm-6 col-xs-12">
-		<div class="ai" onClick="window.open('https://x.com/i/grok')">
-		<div class="row">
-			<div class="col-xs-4">
-				<img class="photo" src="https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png">
-			</div>
-			<div class="col-xs-8">
-		<h1 class="title">Grok</h1>
-				<h4 class="information">I'm Grok 2, an AI built by xAI, designed to provide maximally helpful answers 
-					with a dash of humor and an outside perspective on humanity. I love exploring the universe, one question at a time! <br>
-				(Necesar cont pe platorma X)</h4>
-				</div>
-			</div>	
-		</div>
-	</div>
-	
-
-
-
-
-	<div class="col-md-4 col-sm-6 col-xs-12">
-		<div class="ai" onClick="window.open('https://chat.deepseek.com/')">
-		<div class="row">
-			<div class="col-xs-4">
-				<img class="photo" src="https://cdn.deepseek.com/chat/icon.png">
-			</div>
-			<div class="col-xs-8">
-		<h1 class="title">DeepSeek</h1>
-				<h4 class="information">Chat with DeepSeek AI – your intelligent assistant for coding, content creation, 
-					file reading, and more. Upload documents, engage in long-context conversations, and get expert help in AI, natural language processing, and beyond.</h4>
-				</div>
-			</div>	
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6 col-xs-12">
-		<div class="ai" onClick="window.open('https://chat.mistral.ai/chat')">
-		<div class="row">
-			<div class="col-xs-4">
-				<img class="photo" src="https://chat.mistral.ai/favicon.ico">
-			</div>
-			<div class="col-xs-8">
-		<h1 class="title">Mistral AI</h1>
-				<h4 class="information">I am a helpful and knowledgeable AI assistant, designed to provide accurate and relevant information based on the input I receive.</h4>
-				</div>
-			</div>	
-		</div>
-	</div>
-	
-
-	
-
-
+<div class="container" id="ai-container">
+  <!-- AI cards will be dynamically generated here -->
 </div>
 
 	<script>
@@ -925,41 +167,78 @@ var r2=document.getElementById("r2"); //get span to apply rainbow
 var myRainbowSpan2=new RainbowSpan(r2, 0, 360, 255, 50, 348); //apply static rainbow effect
 myRainbowSpan2.timer=window.setInterval("myRainbowSpan2.moveRainbow()", myRainbowSpan2.speed);
 	</script>
-	 <script>
+
+<footer class="footer">
+  <div class="row">
+    <div class="col-md-6">
+      <h3>&copy; <span id="footer-year"></span> By <a href="https://www.mihailungu.com "><font color="white"><u>Mihai Lungu</u></font></a></h3>
+    </div>
+    <div class="col-md-6">
+      <h3 id="updateInfo" style="text-align: right;"></h3>
+      <h5 style="text-align: right;"><a href="whats-news/"><font color="white"><u>Whats news</u></font></a></h5>
+    </div>
+  </div>
+</footer>
+ <script>
 		document.addEventListener("DOMContentLoaded", function() {
 		  var currentYear = new Date().getFullYear();
 		  var footerYear = document.getElementById("footer-year");
 		  footerYear.textContent = currentYear;
 		});
 	  </script>
-	<footer class="footer">
-		<div class="row">
-			<div class="col-md-6">
-				<h3>&copy; <span id="footer-year"></span> By <a href="https://www.mihailungu.com"><font color="white"><u>Mihai Lungu</u></font></a> </h3>
-			</div>
-			<div class="col-md-6">
-				<h3 id="updateInfo" style="text-align: right;"></h3>
+<script>
+ document.addEventListener('DOMContentLoaded', function() {
+    // Function to create a single AI item
+    function createAIItem(item) {
+        return `
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="ai" onClick="window.open('${item.link}')">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <img class="photo" src="${item.image}" alt="${item.title}">
+                        </div>
+                        <div class="col-xs-8">
+                            <h1 class="title">${item.title}</h1>
+                            <h4 class="information">${item.description}</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
 
-    <script>
-        // Function to fetch and display the update information
-        async function fetchUpdateInfo() {
-            try {
-                const response = await fetch('updateInfo.json');
-                const data = await response.json();
-                document.getElementById('updateInfo').innerText = data.updated;
-            } catch (error) {
-                console.error('Error fetching the update information:', error);
-            }
+    // Function to create rows with 3 items each
+    function createRows(data) {
+        let rows = '';
+        for (let i = 0; i < data.length; i += 3) {
+            const rowItems = data.slice(i, i + 3);
+            let rowContent = rowItems.map(item => createAIItem(item)).join('');
+            rows += `<div class="row" align="center">${rowContent}</div>`;
         }
+        return rows;
+    }
 
-        // Call the function to fetch and display the update information
-        fetchUpdateInfo();
-    </script>
-				<h5 style="text-align: right;"><a href="whats-news/"><font color="white"><u>Whats news</u></font></a></h5>
-			</div>
-		</div>
-	
-	
-	</footer>
+    // Fetch JSON data and append to container
+    fetch('ai-data.json')
+        .then(response => response.json())
+        .then(data => {
+            const container = document.querySelector('.container'); // Ensure your HTML has a container div
+            container.innerHTML = createRows(data);
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+});
+
+  // Fetch update information
+  async function fetchUpdateInfo() {
+    try {
+      const response = await fetch('updateInfo.json');
+      const data = await response.json();
+      document.getElementById('updateInfo').innerText = data.updated;
+    } catch (error) {
+      console.error('Error fetching the update information:', error);
+    }
+  }
+  fetchUpdateInfo();
+</script>
 </body>
 </html>
