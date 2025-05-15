@@ -2,22 +2,22 @@
 <html>
 <head>
 <meta charset="utf-8">
-	 <link rel="icon" type="image/x-icon" href="https://media.mihailungu.com/resources/images/poza.jpg">
+     <link rel="icon" type="image/x-icon" href="https://media.mihailungu.com/resources/images/poza.jpg   ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css   ">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js   "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js   "></script>
 <title>             AI</title>
-	<style>
-		row {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center; /* Centrare pe dispozitive mici */
+    <style>
+    row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrare pe dispozitive mici */
 }
 .container {
-	width: auto; /* Lățime maximă pentru desktop */
-	margin: 0 auto; /* Centrare pe pagină */
-	padding: 20px;
+    width: auto; /* Lățime maximă pentru desktop */
+    margin: 0 auto; /* Centrare pe pagină */
+    padding: 20px;
 }
 
 .head {
@@ -32,7 +32,7 @@
     backdrop-filter: blur(10px);
     text-align: center; /* Centrare pe dispozitive mici */
 }
-		.photo {
+        .photo {
     margin-top: 16px;
     width: 80%; /* Ajustare automată pentru dispozitive mici */
     max-width: 100px;
@@ -50,7 +50,7 @@
     width: 100%; /* Lățime completă pentru dispozitive mici */
     max-width: 580px;
     min-height: 200px;
-	min-width: 300px;
+    min-width: 300px;
     height: auto;
     background-color: rgba(255, 255, 255, 0.15);
     color: white;
@@ -58,7 +58,7 @@
     border: 0.5px solid white;
     backdrop-filter: blur(10px);
     padding: 20px;
-	margin-top:25px;
+    margin-top:25px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
     cursor: pointer;
     transition: all 0.9s ease;
@@ -83,7 +83,7 @@ body {
     padding: 10px;
     width: 100%;
     height: auto;
-	margin-top:25px;
+    margin-top:25px;
     background-color: rgba(255, 255, 255, 0.15);
     color: white;
     border-radius: 20px;
@@ -98,27 +98,51 @@ body {
     margin: 7px 0;
 }
 
-	</style>
+/* Dropdown style */
+.filter-dropdown {
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+.filter-dropdown select {
+  width: 94%;
+  margin-top: 80px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.filter-dropdown select:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+    </style>
 </head>
 
 <body>
-	
-	
-	<br>
+    <br>
 <nav class="head navbar navbar-fixed-top" align="center">
-	
-	<h1 id="r2" class="textin" style="font-weight: bold;">Artificial Intelligence</h1>
-	
+    <h1 id="r2" class="textin" style="font-weight: bold;">Artificial Intelligence</h1>
 </nav>
-<link rel="stylesheet" href="https://media.mihailungu.com/resources/newyear/style.css">
-	<script type="text/javascript" src="https://media.mihailungu.com/resources/newyear/newyear.js"></script>
-	<br>
+<link rel="stylesheet" href="https://media.mihailungu.com/resources/newyear/style.css   ">
+    <script type="text/javascript" src="https://media.mihailungu.com/resources/newyear/newyear.js   "></script>
+    <br>
+
+<div class="filter-dropdown">
+    <select id="type-filter" onchange="filterAI()">
+        <option value="all">All Types</option>
+        <!-- Options will be dynamically populated here -->
+    </select>
+</div>
 
 <div class="container" id="ai-container">
   <!-- AI cards will be dynamically generated here -->
 </div>
-
-	<script>
+<script>
 	function toSpans(span) {
   var str=span.firstChild.data;
   var a=str.length;
@@ -167,27 +191,28 @@ var r2=document.getElementById("r2"); //get span to apply rainbow
 var myRainbowSpan2=new RainbowSpan(r2, 0, 360, 255, 50, 348); //apply static rainbow effect
 myRainbowSpan2.timer=window.setInterval("myRainbowSpan2.moveRainbow()", myRainbowSpan2.speed);
 	</script>
-
 <footer class="footer">
   <div class="row">
     <div class="col-md-6">
-      <h3>&copy; <span id="footer-year"></span> By <a href="https://www.mihailungu.com "><font color="white"><u>Mihai Lungu</u></font></a></h3>
+      <h3>&copy; <span id="footer-year"></span> By <a href="https://www.mihailungu.com    "><font color="white"><u>Mihai Lungu</u></font></a></h3>
     </div>
     <div class="col-md-6">
       <h3 id="updateInfo" style="text-align: right;"></h3>
-      <h5 style="text-align: right;"><a href="whats-news/"><font color="white"><u>Whats news</u></font></a></h5>
+      
     </div>
   </div>
 </footer>
  <script>
-		document.addEventListener("DOMContentLoaded", function() {
-		  var currentYear = new Date().getFullYear();
-		  var footerYear = document.getElementById("footer-year");
-		  footerYear.textContent = currentYear;
-		});
-	  </script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var currentYear = new Date().getFullYear();
+      var footerYear = document.getElementById("footer-year");
+      footerYear.textContent = currentYear;
+    });
+</script>
 <script>
- document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
+    let aiData = [];
+
     // Function to create a single AI item
     function createAIItem(item) {
         return `
@@ -222,23 +247,54 @@ myRainbowSpan2.timer=window.setInterval("myRainbowSpan2.moveRainbow()", myRainbo
     fetch('ai-data.json')
         .then(response => response.json())
         .then(data => {
-            const container = document.querySelector('.container'); // Ensure your HTML has a container div
-            container.innerHTML = createRows(data);
+            aiData = data; // Store the data globally
+
+            // Extract unique types from the data
+            const allTypes = aiData.flatMap(item => item.type); // Flatten the array of types
+            const uniqueTypes = [...new Set(allTypes)]; // Get unique types
+
+            // Populate the dropdown with unique types
+            const dropdown = document.getElementById('type-filter');
+            uniqueTypes.forEach(type => {
+                const option = document.createElement('option');
+                option.value = type;
+                option.textContent = type.charAt(0).toUpperCase() + type.slice(1); // Capitalize first letter
+                dropdown.appendChild(option);
+            });
+
+            renderAI(aiData); // Render all AI items initially
         })
         .catch(error => console.error('Error loading JSON:', error));
+
+    // Function to render AI items
+    function renderAI(data) {
+        const container = document.querySelector('.container'); // Ensure your HTML has a container div
+        container.innerHTML = createRows(data);
+    }
+
+    // Filter AI items based on selected type
+    window.filterAI = function() {
+        const filterValue = document.getElementById('type-filter').value;
+        if (filterValue === 'all') {
+            renderAI(aiData); // Show all items
+        } else {
+            const filteredData = aiData.filter(item => item.type.includes(filterValue));
+            renderAI(filteredData); // Show filtered items
+        }
+    };
 });
 
-  // Fetch update information
-  async function fetchUpdateInfo() {
+// Fetch update information
+async function fetchUpdateInfo() {
     try {
-      const response = await fetch('updateInfo.json');
-      const data = await response.json();
-      document.getElementById('updateInfo').innerText = data.updated;
+        const response = await fetch('updateInfo.json');
+        const data = await response.json();
+        document.getElementById('updateInfo').innerText = data.updated;
     } catch (error) {
-      console.error('Error fetching the update information:', error);
+        console.error('Error fetching the update information:', error);
     }
-  }
-  fetchUpdateInfo();
+}
+fetchUpdateInfo();
 </script>
 </body>
 </html>
