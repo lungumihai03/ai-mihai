@@ -1,428 +1,813 @@
 [
    {
+    "title": "Soul Machines",
+    "description": "Got Life Goals? Our AI Assistants have got you. <br>Soul Machines AI Assistants provide personalized one-on-one, judgement-free coaching and support anytime, anywhere, for free. Talk to our AI Assistants now!",
+    "description-ro": "Ai obiective în viață? Asistenții noștri AI sunt aici pentru tine. <br>Asistenții AI de la Soul Machines oferă coaching și suport personalizat, fără judecăți, oricând și oriunde, gratuit. Vorbește acum cu asistenții noștri AI!",
+    "description-ru": "Есть жизненные цели? Наши AI-ассистенты помогут вам. <br>AI-ассистенты Soul Machines предоставляют персонализированное индивидуальное коучинг и поддержку в любое время и в любом месте, бесплатно. Поговорите с нашими AI-ассистентами прямо сейчас!",
+    "link": "https://www.soulmachines.com/",
+    "image": "https://static.wixstatic.com/media/5de30e_06f3bde17a704b2395bec3db6c2a52ae%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/5de30e_06f3bde17a704b2395bec3db6c2a52ae%7Emv2.png",
+    "type": [
+      "Content & Design",
+      "Communication & Media"
+    ]
+  },
+   {
+    "title": "Mangaka",
+    "description": "Managaka is a cutting-edge AI tool that transforms your scripts into stunning manga-style illustrations. With its advanced technology, you can create captivating visual narratives effortlessly. Whether you are a professional artist or a hobbyist, Mangaka AI empowers you to bring your stories to life with just a few clicks.",
+    "description-ro": "Mangaka este un instrument AI de vârf care transformă scenariile tale în ilustrații uimitoare în stil manga. Cu tehnologia sa avansată, poți crea narațiuni vizuale captivante fără efort. Fie că ești un artist profesionist sau un pasionat, Mangaka AI îți oferă puterea de a-ți aduce poveștile la viață cu doar câteva clicuri.",
+    "description-ru": "Mangaka — это передовой инструмент ИИ, который преобразует ваши сценарии в потрясающие иллюстрации в стиле манга. С его помощью вы можете легко создавать захватывающие визуальные повествования. Будь вы профессиональным художником или любителем, Mangaka AI дает вам возможность оживить ваши истории всего за несколько кликов.",
+    "link": "https://mangaka.app/",
+    "image": "https://mangaka.app/apple-icon-180x180.png",
+    "type": [
+      "Content & Design",
+      "Communication & Media"
+    ]
+  },
+   {
+    "title": "ClipDrop",
+    "description": "Remove background, cleanup pictures, upscaling, Stable diffusion and more…",
+    "description-ro": "Elimină fundalul, curăță imaginile, upscalează, Stable diffusion și multe altele...",
+    "description-ru": "Удаление фона, очистка изображений, увеличение, стабильная диффузия и многое другое...",
+    "link": "https://clipdrop.co/",
+    "image": "https://clipdrop.co/favicon.ico",
+    "type": [
+      "Content & Design"
+    ]
+  },
+   {
+    "title": "GenTube",
+    "description": "GenTube is the fastest way to turn your ideas into stunning art, from abstract designs to hyper-realistic photos! Enjoy playful self-expression on GenTube now.",
+    "description-ro": "GenTube este cea mai rapidă modalitate de a transforma ideile tale în artă uimitoare, de la designuri abstracte la fotografii hiper-realistice! Bucură-te de auto-exprimarea jucăușă pe GenTube acum.",
+    "description-ru": "GenTube — это самый быстрый способ превратить ваши идеи в потрясающее искусство, от абстрактных дизайнов до гиперреалистичных фотографий! Наслаждайтесь игривым самовыражением на GenTube прямо сейчас.",
+    "link": "https://www.gentube.app/",
+    "image": "https://www.gentube.app/images/gentube_default.webp",
+    "type": [
+      "Content & Design"
+    ]
+  },
+   {
+    "title": "Otio",
+    "description": "The Fastest Way To Do Research",
+    "description-ro": "Cea mai rapidă modalitate de a face cercetări",
+    "description-ru": "Самый быстрый способ провести исследование",
+    "link": "https://app.otio.ai/",
+    "image": "https://app.otio.ai/images/otio-180x180.png",
+    "type": [
+      "Coding & Tech",
+      "Learning & Research"
+    ]
+  },
+   {
+    "title": "Rork",
+    "description": "Rork builds complete, production-ready mobile apps from your description using AI and React Native.",
+    "description-ro": "Rork construiește aplicații mobile complete, gata pentru producție, din descrierea ta folosind AI și React Native.",
+    "description-ru": "Rork создает полные, готовые к производству мобильные приложения на основе вашего описания с использованием ИИ и React Native.",
+    "link": "https://rork.com/",
+    "image": "https://rork.com/favicon.ico",
+    "type": [
+      "Coding & Tech",
+      "Work & Productivity"
+    ]
+  },
+  
+  {
     "title": "PDF Macro",
     "description": "Inline AI explanations that help you understand complex language, chat with PDFs, and edit PDFs with simple tools.",
+    "description-ro": "Explicații AI încorporate care te ajută să înțelegi limbajul complex, să interacționezi cu PDF-urile și să editezi PDF-uri cu instrumente simple.",
+    "description-ru": "Встроенные объяснения ИИ, которые помогают понять сложный язык, взаимодействовать с PDF-файлами и редактировать их с помощью простых инструментов.",
     "link": "https://pdf.macro.com/",
     "image": "https://macro.com/logo.png",
-    "type": ["productivity", "document analysis", "text"]
-
+    "type": [
+      "General & Multimodal",
+      "Learning & Research",
+      "Work & Productivity"
+    ]
   },
-   {
+  {
     "title": "Krisp",
     "description": "Krisp cancels background noise, records, transcribes, and summarizes meetings and calls for clear communication and better productivity in any environment.",
+    "description-ro": "Krisp elimină zgomotul de fundal, înregistrează, transcrie și rezumă întâlnirile și apelurile pentru o comunicare clară și o productivitate mai bună în orice mediu.",
+    "description-ru": "Krisp устраняет фоновый шум, записывает, транскрибирует и обобщает встречи и звонки для четкой коммуникации и повышения производительности в любой среде.",
     "link": "https://krisp.ai/",
     "image": "https://krisp.ai/wp-content/uploads/2023/12/cropped-favicon-1-192x192.png",
-    "type": ["productivity", "communication"]
-
+    "type": [
+      "Communication & Media",
+      "Work & Productivity"
+    ]
   },
-   {
+  {
     "title": "Vozo",
     "description": "Translate, edit scripts, dub, and lip sync your videos with prompts! Add auto subtitles, change voices, and modify voiceovers with ease.",
+    "description-ro": "Tradu, editează scenarii, dublează și sincronizează buzele videoclipurilor cu prompturi! Adaugă subtitrări automate, schimbă vocile și modifică voice-over-urile cu ușurință.",
+    "description-ru": "Переводите, редактируйте сценарии, дублируйте и синхронизируйте губы в видео с помощью подсказок! Добавляйте автоматические субтитры, меняйте голоса и редактируйте озвучку с легкостью.",
     "link": "https://www.vozo.ai/",
     "image": "https://static-hb.clipp.ai/static-files/83c1gb7g/eXZc2V17k6jTECg-.png",
-    "type": ["video", "content creation"]
+    "type": [
+      "Communication & Media",
+      "Content & Design"
+    ]
   },
-   {
+  {
     "title": "DxGPT",
     "description": "DxGPT is a diagnostic decision support software based on GPT-4. AI that helps the diagnosis of diseases. Totally free for doctors and patients.",
+    "description-ro": "DxGPT este un software de sprijin pentru decizii de diagnostic bazat pe GPT-4. Inteligență artificială care ajută la diagnosticarea bolilor. Complet gratuit pentru medici și pacienți.",
+    "description-ru": "DxGPT — это программное обеспечение для поддержки диагностических решений на базе GPT-4. ИИ, который помогает в диагностике заболеваний. Полностью бесплатно для врачей и пациентов.",
     "link": "https://dxgpt.app/",
-    "image": "https://dxgpt.app/favicon.ico", 
-    "type": ["healthcare", "diagnostics"]
-
+    "image": "https://dxgpt.app/favicon.ico",
+    "type": [
+      "Learning & Research"
+    ]
   },
-   {
+  {
     "title": "Aithor",
     "description": "Transform your writing with our AI-powered research assistant. Get help with sources, structure, and editing. Best tools to improve writing skills. Try it now!",
+    "description-ro": "Transformă-ți scrisul cu asistentul nostru de cercetare bazat pe inteligență artificială. Obține ajutor cu sursele, structura și editarea. Cele mai bune instrumente pentru a-ți îmbunătăți abilitățile de scris. Încearcă acum!",
+    "description-ru": "Преобразуйте свои тексты с помощью нашего исследовательского ассистента на базе ИИ. Получите помощь с источниками, структурой и редактированием. Лучшие инструменты для улучшения навыков письма. Попробуйте сейчас!",
     "link": "https://aithor.com/",
     "image": "https://aithor.com/head/theme-paper/favicon.ico",
-    "type": ["content creation", "productivity", "text", "research", "writing", "document analysis"]
-
+    "type": [
+      "Content & Design",
+      "General & Multimodal",
+      "Learning & Research",
+      "Work & Productivity"
+    ]
   },
-   {
+  {
     "title": "Pageon",
     "description": "Pageon is the ultimate AI-powered tool for creating engaging, influential new media content. we're revolutionizing how knowledge creators and self-media professionals tell their stories.",
+    "description-ro": "Pageon este instrumentul suprem bazat pe inteligență artificială pentru crearea de conținut media nou, captivant și influent. Revoluționăm modul în care creatorii de cunoștințe și profesioniștii din media de sine stătătoare își spun poveștile.",
+    "description-ru": "Pageon — это идеальный инструмент на базе ИИ для создания увлекательного и влиятельного контента новых медиа. Мы революционизируем то, как создатели знаний и профессионалы самоуправляемых медиа рассказывают свои истории.",
     "link": "https://www.pageon.ai/",
     "image": "https://cdn.prod.website-files.com/669cb3732ce3e28db60a6a5b/66d90af2c3aab9379e373cc5_opengraph.png",
-    "type": ["content creation", "productivity", "text"]
+    "type": [
+      "Content & Design",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
- {
+  {
     "title": "Unstuck",
     "description": "Unstuck transforms your PDFs, PowerPoints, YouTube videos, lectures, textbook, and class notes into trusted study tools.",
+    "description-ro": "Unstuck transformă PDF-urile, prezentările PowerPoint, videoclipurile de pe YouTube, cursurile, manualele și notițele de clasă în instrumente de studiu de încredere.",
+    "description-ru": "Unstuck превращает ваши PDF-файлы, презентации PowerPoint, видео на YouTube, лекции, учебники и конспекты занятий в надежные учебные инструменты.",
     "link": "https://unstuckstudy.com/",
     "image": "https://unstuckstudy.com/favicon.ico",
-    "type": ["education", "productivity", "text", "document analysis"]
+    "type": [
+      "General & Multimodal",
+      "Learning & Research",
+      "Work & Productivity"
+    ]
   },
-
   {
     "title": "Wegic AI",
-    "description": "Hi, we're Wegic — your AI website team: designer, developer, and manager.Just chat with us, and we'll build, manage, and effortlessly update your site!",
+    "description": "Hi, we're Wegic — your AI website team: designer, developer, and manager. Just chat with us, and we'll build, manage, and effortlessly update your site!",
+    "description-ro": "Bună, suntem Wegic — echipa ta AI pentru site-uri web: designer, dezvoltator și manager. Doar discută cu noi, iar noi vom construi, gestiona și actualiza fără efort site-ul tău!",
+    "description-ru": "Привет, мы Wegic — твоя команда ИИ для веб-сайтов: дизайнер, разработчик и менеджер. Просто общайся с нами, и мы создадим, управим и легко обновим твой сайт!",
     "link": "https://wegic.ai/ ",
-    "image": "https://cdn.wegic.ai/assets/email/logo.ico ", 
-    "type": ["code","productivity", "website building"]
-    
+    "image": "https://cdn.wegic.ai/assets/email/logo.ico ",
+    "type": [
+      "Coding & Tech",
+      "Content & Design",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Qwen AI",
     "description": "I'm Qwen, a large language model developed by Alibaba Cloud to assist with various tasks and provide accurate information.",
+    "description-ro": "Sunt Qwen, un model de limbaj de mari dimensiuni dezvoltat de Alibaba Cloud pentru a asista în diverse sarcini și a oferi informații precise.",
+    "description-ru": "Я Qwen, большая языковая модель, разработанная Alibaba Cloud для помощи в различных задачах и предоставления точной информации.",
     "link": "https://chat.qwen.ai/ ",
     "image": "https://assets.alicdn.com/g/qwenweb/qwen-webui-fe/0.0.93/favicon.png ",
-    "type": ["text", "general", "code", "images", "productivity", "multi-model"]
+    "type": [
+      "Coding & Tech",
+      "Content & Design",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Mistral AI",
     "description": "I am a helpful and knowledgeable AI assistant, designed to provide accurate and relevant information based on the input I receive.",
+    "description-ro": "Sunt un asistent AI util și bine informat, conceput pentru a oferi informații precise și relevante pe baza datelor primite.",
+    "description-ru": "Я полезный и осведомленный ИИ-ассистент, разработанный для предоставления точной и релевантной информации на основе полученных данных.",
     "link": "https://chat.mistral.ai/chat  ",
     "image": "https://chat.mistral.ai/favicon.ico  ",
-    "type": ["text", "general", "code", "productivity"]
+    "type": [
+      "Coding & Tech",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "DeepSeek",
     "description": "Chat with DeepSeek AI – your intelligent assistant for coding, content creation, file reading, and more. Upload documents, engage in long-context conversations, and get expert help in AI, natural language processing, and beyond.",
+    "description-ro": "Discută cu DeepSeek AI – asistentul tău inteligent pentru programare, crearea de conținut, citirea fișierelor și multe altele. Încarcă documente, participă la conversații lungi și obține ajutor de specialitate în inteligență artificială, procesarea limbajului natural și nu numai.",
+    "description-ru": "Общайтесь с DeepSeek AI — вашим интеллектуальным помощником для программирования, создания контента, чтения файлов и многого другого. Загружайте документы, участвуйте в длительных контекстных беседах и получайте экспертную помощь в области ИИ, обработки естественного языка и не только.",
     "link": "https://chat.deepseek.com/  ",
     "image": "https://cdn.deepseek.com/chat/icon.png  ",
-    "type": ["code", "text", "productivity", "general"]
+    "type": [
+      "Coding & Tech",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Grok",
     "description": "I'm Grok 3, an AI built by xAI, designed to provide maximally helpful answers with a dash of humor and an outside perspective on humanity. I love exploring the universe, one question at a time!",
+    "description-ro": "Sunt Grok 3, un AI construit de xAI, conceput pentru a oferi răspunsuri cât mai utile, cu o notă de umor și o perspectivă externă asupra umanității. Îmi place să explorez universul, o întrebare pe rând!",
+    "description-ru": "Я Grok 3, ИИ, созданный xAI, предназначенный для предоставления максимально полезных ответов с долей юмора и внешней перспективой на человечество. Люблю исследовать вселенную, отвечая на вопросы по одному!",
     "link": "https://grok.com/  ",
     "image": "https://th.bing.com/th/id/OIP.puTtIsfpfyhZ6RSgTSecswHaHa?cb=iwp2&rs=1&pid=ImgDetMain  ",
-    "type": ["text", "general", "code", "productivity", "images"]
+    "type": [
+      "Coding & Tech",
+      "Content & Design",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Invideo",
     "description": "Make videos easily by giving a prompt to invideo AI. Ideal for content creators, YouTubers and marketers, invideo AI offers a seamless way to turn your ideas into publish-ready videos with AI.",
+    "description-ro": "Creează videoclipuri cu ușurință oferind un prompt către invideo AI. Ideal pentru creatorii de conținut, YouTuberi și marketeri, invideo AI oferă o modalitate simplă de a transforma ideile tale în videoclipuri gata de publicare cu ajutorul AI.",
+    "description-ru": "Создавайте видео легко, задавая подсказку invideo AI. Идеально для создателей контента, ютуберов и маркетологов, invideo AI предлагает простой способ превратить ваши идеи в готовые к публикации видео с помощью ИИ.",
     "link": "https://ai.invideo.io/  ",
     "image": "https://ai.invideo.io/favicon.ico  ",
-    "type": ["video", "content creation"]
+    "type": [
+      "Communication & Media",
+      "Content & Design"
+    ]
   },
   {
     "title": "Unstuckstudy",
     "description": "Unstuck transforms your PDFs, PowerPoints, YouTube videos, lectures, textbook, and class notes into trusted study tools.",
+    "description-ro": "Unstuckstudy transformă PDF-urile, prezentările PowerPoint, videoclipurile de pe YouTube, cursurile, manualele și notițele de clasă în instrumente de studiu de încredere.",
+    "description-ru": "Unstuckstudy превращает ваши PDF-файлы, презентации PowerPoint, видео на YouTube, лекции, учебники и конспекты занятий в надежные учебные инструменты.",
     "link": "https://unstuckstudy.com/  ",
     "image": "https://unstuckstudy.com/favicon.ico  ",
-    "type": ["education", "productivity", "text"]
+    "type": [
+      "General & Multimodal",
+      "Learning & Research",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Studyable",
     "description": "Studyable is the #1 free AI-powered study app. Get instant step-by-step homework help for every subject, chat with AI tutors that can do math and see images, and receive instant feedback on your essays from Essay Grader.",
+    "description-ro": "Studyable este aplicația de studiu gratuită nr. 1 bazată pe AI. Obține ajutor instantaneu pas cu pas pentru teme la toate materiile, discută cu tutori AI care pot rezolva probleme de matematică și vedea imagini și primește feedback instantaneu pentru eseurile tale de la Essay Grader.",
+    "description-ru": "Studyable — это бесплатное приложение для учебы №1 на базе ИИ. Получайте мгновенную пошаговую помощь с домашними заданиями по всем предметам, общайтесь с ИИ-репетиторами, которые могут решать математические задачи и видеть изображения, и получайте мгновенную обратную связь по вашим эссе от Essay Grader.",
     "link": "https://studyable.app/  ",
     "image": "https://studyable.app/favicon.ico  ",
-    "type": ["education", "text", "productivity"]
+    "type": [
+      "General & Multimodal",
+      "Learning & Research",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Studyz AI",
     "description": "Get instant step-by-step solutions for all subjects with StudyX AI homework helper, powered by top models like o1, Claude 3.5, GPT-4o and Gemini 1.5, available 24/7 with AI tutor and community support.",
+    "description-ro": "Obține soluții instantanee pas cu pas pentru toate materiile cu StudyX AI, asistentul pentru teme, alimentat de modele de top precum o1, Claude 3.5, GPT-4o și Gemini 1.5, disponibil 24/7 cu tutori AI și suport comunitar.",
+    "description-ru": "Получайте мгновенные пошаговые решения по всем предметам с помощником по домашним заданиям StudyX AI, работающим на лучших моделях, таких как o1, Claude 3.5, GPT-4o и Gemini 1.5, доступным 24/7 с ИИ-репетитором и поддержкой сообщества.",
     "link": "https://studyx.ai/  ",
     "image": "https://studyx.ai/favicon.ico  ",
-    "type": ["education", "text", "productivity"]
+    "type": [
+      "General & Multimodal",
+      "Learning & Research",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Chat pdf",
     "description": "ChatPDF brings ChatGPT-style intelligence and PDF AI technology together for smarter document understanding. Summarize, chat, and analyze.",
+    "description-ro": "ChatPDF combină inteligența în stil ChatGPT și tehnologia AI pentru PDF-uri pentru o înțelegere mai inteligentă a documentelor. Rezumă, discută și analizează.",
+    "description-ru": "ChatPDF объединяет интеллект в стиле ChatGPT и технологию ИИ для PDF, обеспечивая более умное понимание документов. Резюмируйте, общайтесь и анализируйте.",
     "link": "https://www.chatpdf.com/  ",
     "image": "https://www.chatpdf.com/favicon.ico  ",
-    "type": ["document analysis", "productivity", "text", "education"]
+    "type": [
+      "General & Multimodal",
+      "Learning & Research",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Giz AI",
     "description": "Capable of generating human-like text, answering questions, and performing various tasks like writing articles, emails, and code.",
+    "description-ro": "Capabil să genereze text asemănător celui uman, să răspundă la întrebări și să efectueze diverse sarcini, cum ar fi scrierea de articole, e-mailuri și cod.",
+    "description-ru": "Способен генерировать текст, похожий на человеческий, отвечать на вопросы и выполнять различные задачи, такие как написание статей, электронных писем и кода.",
     "link": "https://app.giz.ai/assistant/  ",
     "image": "https://www.giz.ai/wp-content/uploads/2024/07/favicon-128x128-1.png  ",
-    "type": ["text", "code", "general", "productivity"]
+    "type": [
+      "Coding & Tech",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Toolfolio",
     "description": "helps you find the best tools for productivity, creativity, and design. Explore top solutions for startups, social media, AI, and more to optimize your workflow.",
+    "description-ro": "Te ajută să găsești cele mai bune instrumente pentru productivitate, creativitate și design. Explorează soluții de top pentru startup-uri, rețele sociale, AI și multe altele pentru a-ți optimiza fluxul de lucru.",
+    "description-ru": "Помогает найти лучшие инструменты для продуктивности, творчества и дизайна. Исследуйте лучшие решения для стартапов, социальных сетей, ИИ и многого другого для оптимизации вашего рабочего процесса.",
     "link": "https://toolfolio.io/  ",
     "image": "https://framerusercontent.com/images/9ByHhUNaWqyS1a9DYzxwg89yFG4.jpg  ",
-    "type": ["productivity", "tools", "images", "design"]
+    "type": [
+      "Content & Design",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "AIlist ru",
-    "description": "Бесплатные нейросети и AI инструменты из России. Подборки бесплатных сервисов для работы, учебы и творчества",
+    "description": "Free neural networks and AI tools from Russia. Collections of free services for work, study and creativity",
+    "description-ro": "Rețele neuronale gratuite și instrumente AI din Rusia. Colecții de servicii gratuite pentru lucru, studiu și creativitate.",
+    "description-ru": "Бесплатные нейросети и инструменты ИИ из России. Подборки бесплатных сервисов для работы, учебы и творчества.",
     "link": "https://ailist.ru/free/  ",
     "image": "https://ailist.ru/wp-content/uploads/2024/06/cropped-favicon-32x32.webp  ",
-    "type": ["general", "tools"]
+    "type": [
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "AnyTopic",
     "description": "is a website that offers a free AI-powered tool to help users generate unique, original, and engaging content for various purposes.",
+    "description-ro": "Este un site web care oferă un instrument gratuit bazat pe AI pentru a ajuta utilizatorii să genereze conținut unic, original și captivant pentru diverse scopuri.",
+    "description-ru": "Это веб-сайт, который предлагает бесплатный инструмент на базе ИИ, чтобы помочь пользователям создавать уникальный, оригинальный и привлекательный контент для различных целей.",
     "link": "https://www.anytopic.io/  ",
     "image": "https://www.anytopic.io/favicon.ico  ",
-    "type": ["podcasts", "content creation"]
+    "type": [
+      "Communication & Media",
+      "Content & Design"
+    ]
   },
   {
     "title": "Luma",
     "description": "is an AI model that uses cutting-edge technology to create high-quality, realistic videos from text and images.",
+    "description-ro": "Este un model AI care utilizează tehnologie de ultimă generație pentru a crea videoclipuri realiste de înaltă calitate din text și imagini.",
+    "description-ru": "Это модель ИИ, которая использует передовые технологии для создания высококачественных реалистичных видео из текста и изображений.",
     "link": "https://lumalabs.ai/dream-machine/creations  ",
     "image": "https://cdn-luma.com/public/captures.lumalabs.ai/images/logo.svg  ",
-    "type": ["video", "content creation"]
+    "type": [
+      "Communication & Media",
+      "Content & Design"
+    ]
   },
   {
     "title": "Meta AI",
     "description": "is a virtual assistant that can answer questions, generate photorealistic images, and more. <br> (Necesar VPN)",
+    "description-ro": "Este un asistent virtual care poate răspunde la întrebări, genera imagini fotorealiste și multe altele. <br> (Necesită VPN)",
+    "description-ru": "Это виртуальный ассистент, который может отвечать на вопросы, создавать фотореалистичные изображения и многое другое. <br> (Требуется VPN)",
     "link": "https://www.meta.ai/  ",
     "image": "https://static.xx.fbcdn.net/rsrc.php/yF/r/Xeu6MfJmKQx.ico ",
-    "type": ["text", "images", "general", "productivity"]
+    "type": [
+      "Content & Design",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Ernie 4 Bot",
     "description": "is a multimodal AI chatbot developed by Baidu. It can generate text, images, and videos, and has been integrated into Baidu's search engine and other tools.",
+    "description-ro": "Este un chatbot AI multimodal dezvoltat de Baidu. Poate genera text, imagini și videoclipuri și a fost integrat în motorul de căutare Baidu și alte instrumente.",
+    "description-ru": "Это мультимодальный чат-бот ИИ, разработанный Baidu. Он может генерировать текст, изображения и видео и был интегрирован в поисковую систему Baidu и другие инструменты.",
     "link": "https://yiyan.baidu.com/  ",
     "image": "https://nlp-eb.cdn.bcebos.com/logo/favicon.ico  ",
-    "type": ["text", "images", "video", "multimodal"]
+    "type": [
+      "Communication & Media",
+      "Content & Design",
+      "General & Multimodal"
+    ]
   },
   {
     "title": "Solo",
     "description": "is an AI-powered website builder designed specifically for solopreneurs and small businesses.",
+    "description-ro": "Este un constructor de site-uri web bazat pe AI, conceput special pentru antreprenori solo și afaceri mici.",
+    "description-ru": "Это конструктор веб-сайтов на базе ИИ, разработанный специально для индивидуальных предпринимателей и малого бизнеса.",
     "link": "https://soloist.ai/onboarding  ",
     "image": "https://soloist.ai/favicon/apple-touch-icon.png  ",
-    "type": ["productivity", "website building"]
+    "type": [
+      "Content & Design",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Supertools",
     "description": "is a website that serves as a comprehensive guide to the best AI tools available across various categories.",
+    "description-ro": "Este un site web care servește drept ghid cuprinzător pentru cele mai bune instrumente AI disponibile în diverse categorii.",
+    "description-ru": "Это веб-сайт, который служит всесторонним руководством по лучшим инструментам ИИ, доступным в различных категориях.",
     "link": "https://app.presentations.ai/  #/ideatodeck",
     "image": "https://assets.super.so/9b1db7dc-155d-4da6-bf88-a68ad1c2af0f/uploads/favicon/f4df662c-f46b-41d1-8e0c-9d0ef23e6a93.png  ",
-    "type": ["tools", "productivity"]
+    "type": [
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Presentations.AI",
     "description": "is an AI-powered presentation maker that simplifies the process of creating professional and engaging presentations.",
+    "description-ro": "Este un creator de prezentări bazat pe AI care simplifică procesul de creare a prezentărilor profesionale și captivante.",
+    "description-ru": "Это создатель презентаций на базе ИИ, который упрощает процесс создания профессиональных и увлекательных презентаций.",
     "link": "https://app.presentations.ai/  #/ideatodeck",
     "image": "https://cdn.presentations.ai/docs/brand/pai/pai.ico  ",
-    "type": ["design", "productivity", "presentation"]
+    "type": [
+      "Communication & Media",
+      "Content & Design",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "LimeWire",
     "description": "is a platform that offers a range of AI-powered tools for content creation and manipulation, including image generation, audio creation, and image editing.",
+    "description-ro": "Este o platformă care oferă o gamă de instrumente bazate pe AI pentru crearea și manipularea conținutului, inclusiv generarea de imagini, crearea de audio și editarea imaginilor.",
+    "description-ru": "Это платформа, которая предлагает ряд инструментов на базе ИИ для создания и обработки контента, включая генерацию изображений, создание аудио и редактирование изображений.",
     "link": "https://limewire.com/  ",
     "image": "https://limewire.com/apple-touch-icon.png  ",
-    "type": ["images", "audio", "content creation", "multi-model"]
+    "type": [
+      "Communication & Media",
+      "Content & Design",
+      "General & Multimodal"
+    ]
   },
   {
     "title": "Groq",
     "description": "is a company specializing in hardware and software solutions for accelerating AI inference.",
+    "description-ro": "Este o companie specializată în soluții hardware și software pentru accelerarea inferenței AI.",
+    "description-ru": "Это компания, специализирующаяся на аппаратных и программных решениях для ускорения вывода ИИ.",
     "link": "https://groq.com/  ",
     "image": "https://groq.com/wp-content/uploads/2024/02/android-icon-192x192-1-150x150.png ",
-    "type": ["infrastructure", "AI optimization"]
+    "type": [
+      "Coding & Tech"
+    ]
   },
   {
     "title": "NotebookLM",
     "description": "is an experimental AI-powered note-taking and research assistant developed by Google Labs.<br>(Necesar VPN)",
+    "description-ro": "Este un asistent experimental de luare a notițelor și cercetare bazat pe AI, dezvoltat de Google Labs.<br>(Necesită VPN)",
+    "description-ru": "Это экспериментальный ассистент для заметок и исследований на базе ИИ, разработанный Google Labs.<br>(Требуется VPN)",
     "link": "https://notebooklm.google/  ",
     "image": "https://notebooklm.google/_/static/branding/v4/light_mode/favicon/favicon.svg  ",
-    "type": ["productivity", "research"]
+    "type": [
+      "Learning & Research",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Poe",
     "description": "is a platform that provides a fast and convenient way to interact with various AI models, including ChatGPT, GPT-4o, Claude 3 Opus, DALLE 3, and many others.",
+    "description-ro": "Este o platformă care oferă o modalitate rapidă și convenabilă de a interacționa cu diverse modele AI, inclusiv ChatGPT, GPT-4o, Claude 3 Opus, DALLE 3 și multe altele.",
+    "description-ru": "Это платформа, которая предоставляет быстрый и удобный способ взаимодействия с различными моделями ИИ, включая ChatGPT, GPT-4o, Claude 3 Opus, DALLE 3 и многие другие.",
     "link": "https://poe.com/  ",
     "image": "https://psc2.cf2.poecdn.net/assets/favicon.svg  ",
-    "type": ["text", "general", "multi-model"]
+    "type": [
+      "General & Multimodal"
+    ]
   },
   {
     "title": "Leonardo AI",
     "description": "is an AI-powered platform designed to empower creators with a suite of tools for generating and enhancing digital content, particularly images.",
+    "description-ro": "Este o platformă bazată pe AI concepută pentru a sprijini creatorii cu o suită de instrumente pentru generarea și îmbunătățirea conținutului digital, în special imagini.",
+    "description-ru": "Это платформа на базе ИИ, предназначенная для поддержки создателей с набором инструментов для генерации и улучшения цифрового контента, особенно изображений.",
     "link": "https://app.leonardo.ai/  ",
     "image": "https://app.leonardo.ai/_next/image?url=%2Fimg%2Fleonardo-logo.png&w=96&q=75  ",
-    "type": ["images", "design"]
+    "type": [
+      "Content & Design"
+    ]
   },
   {
     "title": "Eden AI",
     "description": "is a platform that simplifies the integration of Artificial Intelligence (AI) into applications and projects.",
+    "description-ro": "Este o platformă care simplifică integrarea inteligenței artificiale (AI) în aplicații și proiecte.",
+    "description-ru": "Это платформа, которая упрощает интеграцию искусственного интеллекта (ИИ) в приложения и проекты.",
     "link": "https://www.edenai.co/  ",
     "image": "https://cdn.prod.website-files.com/61e7d259b7746e2d1df0b68d/621dcbfc999a57b1b4694c19_edenlogowebclip.png  ",
-    "type": ["API", "integration"]
+    "type": [
+      "Coding & Tech",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Gamma",
     "description": "is a web-based platform that provides a collaborative workspace for teams to brainstorm, plan, and manage projects.",
+    "description-ro": "Este o platformă web care oferă un spațiu de lucru colaborativ pentru echipe pentru a face brainstorming, a planifica și a gestiona proiecte.",
+    "description-ru": "Это веб-платформа, которая предоставляет совместное рабочее пространство для команд, чтобы проводить мозговой штурм, планировать и управлять проектами.",
     "link": "https://gamma.app/  ",
     "image": "https://gamma.app/favicons/favicon-192.svg  ",
-    "type": ["productivity", "collaboration", "presentation"]
+    "type": [
+      "Content & Design",
+      "Communication & Media",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "CodePal",
     "description": "is a comprehensive AI-powered platform designed to assist developers of all skill levels.",
+    "description-ro": "Este o platformă cuprinzătoare bazată pe AI, concepută pentru a asista dezvoltatorii de toate nivelurile de competență.",
+    "description-ru": "Это всесторонняя платформа на базе ИИ, предназначенная для помощи разработчикам всех уровней квалификации.",
     "link": "https://codepal.ai/  ",
     "image": "https://codepal.ai/static/img/favicon.ico?cache_control=43afd8c20682c3c4041851253d4800e428621873  ",
-    "type": ["code", "developer tools", "productivity"]
+    "type": [
+      "Coding & Tech",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "EasyChat",
     "description": "is a web-based platform that provides a user-friendly interface for interacting with various AI models, including ChatGPT, Claude, and Bard.",
+    "description-ro": "Este o platformă web care oferă o interfață ușor de utilizat pentru interacțiunea cu diverse modele AI, inclusiv ChatGPT, Claude și Bard.",
+    "description-ru": "Это веб-платформа, которая предоставляет удобный интерфейс для взаимодействия с различными моделями ИИ, включая ChatGPT, Claude и Bard.",
     "link": "https://next.eqing.tech/  #/chat",
     "image": "https://next.eqing.tech/favicon.ico  ",
-    "type": ["text", "general", "multi-model"]
+    "type": [
+      "General & Multimodal"
+    ]
   },
   {
     "title": "AI.LS",
     "description": "is a web-based platform that offers an alternative user interface for ChatGPT, providing a more streamlined and elegant experience.",
+    "description-ro": "Este o platformă web care oferă o interfață alternativă pentru ChatGPT, oferind o experiență mai simplificată și elegantă.",
+    "description-ru": "Это веб-платформа, которая предлагает альтернативный пользовательский интерфейс для ChatGPT, обеспечивая более упрощенный и элегантный опыт.",
     "link": "https://liaobots.com/en  ",
     "image": "https://ai.ls/favicon.ico  ",
-    "type": ["text", "general", "multi-model"]
+    "type": [
+      "General & Multimodal"
+    ]
   },
   {
     "title": "Liaobots",
     "description": "is a platform that provides access to various AI models, including both paid and open-source models.",
+    "description-ro": "Este o platformă care oferă acces la diverse modele AI, inclusiv modele plătite și open-source.",
+    "description-ru": "Это платформа, которая предоставляет доступ к различным моделям ИИ, включая как платные, так и модели с открытым исходным кодом.",
     "link": "https://liaobots.com/en  ",
     "image": "https://liaobots.com/favicon.ico  ",
-    "type": ["text", "general", "multi-model"]
+    "type": [
+      "General & Multimodal"
+    ]
   },
   {
     "title": "Tome app",
-    "description": "is an AI-powered storytelling platform designed to help sales teams create engaging presentations and streamline their sales process.n",
+    "description": "is an AI-powered storytelling platform designed to help sales teams create engaging presentations and streamline their sales process.",
+    "description-ro": "Este o platformă de storytelling bazată pe AI, concepută pentru a ajuta echipele de vânzări să creeze prezentări captivante și să simplifice procesul de vânzare.",
+    "description-ru": "Это платформа для повествования на базе ИИ, предназначенная для помощи командам продаж в создании увлекательных презентаций и упрощения процесса продаж.",
     "link": "https://tome.app/my-space-mihai  ",
     "image": "https://tome.app/assets/favicon-192x192.png  ",
-    "type": ["presentation", "sales", "content creation"]
+    "type": [
+      "Communication & Media",
+      "Content & Design"
+    ]
   },
   {
     "title": "Kits AI",
     "description": "is a web-based platform that uses AI to transform your voice into different voices, create custom voices, and enhance your music production.",
+    "description-ro": "Este o platformă web care utilizează AI pentru a transforma vocea ta în diferite voci, a crea voci personalizate și a îmbunătăți producția muzicală.",
+    "description-ru": "Это веб-платформа, которая использует ИИ для преобразования вашего голоса в разные голоса, создания пользовательских голосов и улучшения музыкального производства.",
     "link": "https://app.kits.ai/convert  ",
     "image": "https://app.kits.ai/apple-touch-icon.png  ",
-    "type": ["audio", "music", "voice"]
+    "type": [
+      "Communication & Media"
+    ]
   },
   {
     "title": "Muse AI",
     "description": "is a comprehensive video platform that simplifies video management, hosting, and distribution for individuals, teams, and businesses.",
+    "description-ro": "Este o platformă video cuprinzătoare care simplifică gestionarea, găzduirea și distribuția videoclipurilor pentru indivizi, echipe și afaceri.",
+    "description-ru": "Это всесторонняя видеоплатформа, которая упрощает управление, хостинг и распространение видео для отдельных лиц, команд и бизнеса.",
     "link": "https://muse.ai/  ",
     "image": "https://muse.ai/static/imgs/favicons/safari-pinned-tab.svg  ",
-    "type": ["video", "management"]
+    "type": [
+      "Communication & Media",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "FusionBrain",
     "description": "is an AI-powered image generation and editing platform based on the Kandinsky neural network.",
+    "description-ro": "Este o platformă de generare și editare de imagini bazată pe AI, bazată pe rețeaua neuronală Kandinsky.",
+    "description-ru": "Это платформа для генерации и редактирования изображений на базе ИИ, основанная на нейронной сети Kandinsky.",
     "link": "https://fusionbrain.ai/en/editor/  ",
     "image": "https://fusionbrain.ai/favicon-76.png  ",
-    "type": ["images", "design"]
+    "type": [
+      "Content & Design"
+    ]
   },
   {
     "title": "Bito AI",
     "description": "is a platform designed to help developers write better code faster by leveraging the power of AI.",
+    "description-ro": "Este o platformă concepută pentru a ajuta dezvoltatorii să scrie cod mai bun mai rapid, utilizând puterea AI.",
+    "description-ru": "Это платформа, предназначенная для помощи разработчикам в написании лучшего кода быстрее с использованием возможностей ИИ.",
     "link": "https://bito.ai/  ",
     "image": "https://bito.ai/wp-content/uploads/2022/03/cropped-android-icon-192x192-1-192x192.png  ",
-    "type": ["code", "developer tools"]
+    "type": [
+      "Coding & Tech"
+    ]
   },
   {
     "title": "Claude",
     "description": "is an AI chatbot developed by Anthropic, designed to be helpful, harmless, and honest.",
+    "description-ro": "Este un chatbot AI dezvoltat de Anthropic, conceput pentru a fi util, inofensiv și onest.",
+    "description-ru": "Это чат-бот ИИ, разработанный Anthropic, предназначенный для того, чтобы быть полезным, безопасным и честным.",
     "link": "https://claude.ai/new  ",
     "image": "https://claude.ai/images/claude_app_icon.png  ",
-    "type": ["text", "general", "code", "productivity"]
+    "type": [
+      "Coding & Tech",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "TextCortex",
     "description": "is an AI-powered writing assistant that aims to help users create high-quality content faster and more efficiently",
+    "description-ro": "Este un asistent de scris bazat pe AI care își propune să ajute utilizatorii să creeze conținut de înaltă calitate mai rapid și mai eficient.",
+    "description-ru": "Это ассистент для письма на базе ИИ, который помогает пользователям создавать высококачественный контент быстрее и эффективнее.",
     "link": "https://textcortex.com/  ",
     "image": "https://cdn.prod.website-files.com/622611a2b23d0e1ab20fba78/627d0094e230d5fc32c417fb_TextCortex%20favicon%20256.png  ",
-    "type": ["text", "writing", "productivity"]
+    "type": [
+      "Content & Design",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "HuggingChat",
     "description": "is a platform that provides access to a variety of AI chat models developed by the community.",
+    "description-ro": "Este o platformă care oferă acces la o varietate de modele de chat AI dezvoltate de comunitate.",
+    "description-ru": "Это платформа, которая предоставляет доступ к различным моделям чата ИИ, разработанным сообществом.",
     "link": "https://huggingface.co/chat/  ",
     "image": "https://huggingface.co/chat/huggingchat/icon.svg  ",
-    "type": ["text", "general", "multi-model"]
+    "type": [
+      "General & Multimodal"
+    ]
   },
   {
     "title": "YOU",
     "description": "is a search engine that aims to provide users with more comprehensive and informative answers to their queries.",
+    "description-ro": "Este un motor de căutare care își propune să ofere utilizatorilor răspunsuri mai cuprinzătoare și informative la întrebările lor.",
+    "description-ru": "Это поисковая система, которая стремится предоставлять пользователям более полные и информативные ответы на их запросы.",
     "link": "https://you.com/?chatMode=default  ",
     "image": "https://you.com/favicon_ydc/favicon-96x96.png?v=3  ",
-    "type": ["search", "information", "research"]
+    "type": [
+      "General & Multimodal",
+      "Learning & Research"
+    ]
   },
   {
     "title": "Jasper",
     "description": "is an AI-powered writing tool designed to help businesses create high-quality marketing content faster and more efficiently.",
+    "description-ro": "Este un instrument de scris bazat pe AI, conceput pentru a ajuta companiile să creeze conținut de marketing de înaltă calitate mai rapid și mai eficient.",
+    "description-ru": "Это инструмент для письма на базе ИИ, предназначенный для помощи компаниям в создании высококачественного маркетингового контента быстрее и эффективнее.",
     "link": "https://www.jasper.ai/  ",
     "image": "https://cdn.prod.website-files.com/60e5f2de011b86acebc30db7/666f33302a54fab58083c231_Favicon.png  ",
-    "type": ["text", "marketing", "productivity"]
+    "type": [
+      "Content & Design",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Perplexity",
     "description": "is an AI-powered search engine that aims to provide more comprehensive and informative answers to user queries.",
+    "description-ro": "Este un motor de căutare bazat pe AI care își propune să ofere răspunsuri mai cuprinzătoare și informative la întrebările utilizatorilor.",
+    "description-ru": "Это поисковая система на базе ИИ, которая стремится предоставлять более полные и информативные ответы на запросы пользователей.",
     "link": "https://www.perplexity.ai/  ",
     "image": "https://www.perplexity.ai/favicon.svg  ",
-    "type": ["search", "information", "research"]
+    "type": [
+      "General & Multimodal",
+      "Learning & Research"
+    ]
   },
   {
     "title": "Fotor",
     "description": "is a free online photo editor that offers a wide range of tools for enhancing and editing photos.",
+    "description-ro": "Este un editor foto online gratuit care oferă o gamă largă de instrumente pentru îmbunătățirea și editarea fotografiilor.",
+    "description-ru": "Это бесплатный онлайн-редактор фотографий, который предлагает широкий спектр инструментов для улучшения и редактирования фотографий.",
     "link": "https://www.fotor.com/  ",
     "image": "https://static.fotor.com/web/_next/static/images/favicon-d4b8dbe4630a2bc790117e61267bbb33.png  ",
-    "type": ["images", "editing", "productivity", "design"]
+    "type": [
+      "Content & Design",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Forefront",
     "description": "Is a conversational AI platform that allows users to interact with AI models in a natural, human-like way.",
+    "description-ro": "Este o platformă de conversație AI care permite utilizatorilor să interacționeze cu modele AI într-un mod natural, asemănător celui uman.",
+    "description-ru": "Это платформа для диалогового ИИ, которая позволяет пользователям взаимодействовать с моделями ИИ естественным, похожим на человеческий образом.",
     "link": "https://chat.forefront.ai/  ",
     "image": "https://uploads-ssl.webflow.com/628193922a4d18e69ba81f14/628193922a4d180bf1a81f46_Favicon.png  ",
-    "type": ["text", "general"]
+    "type": [
+      "General & Multimodal"
+    ]
   },
   {
     "title": "Durable",
     "description": "AI-powered website builder and small business software platform designed to help entrepreneurs launch and manage their businesses.",
+    "description-ro": "Constructor de site-uri web bazat pe AI și platformă software pentru afaceri mici, concepută pentru a ajuta antreprenorii să lanseze și să gestioneze afacerile lor.",
+    "description-ru": "Конструктор веб-сайтов на базе ИИ и программная платформа для малого бизнеса, предназначенная для помощи предпринимателям в запуске и управлении их бизнесом.",
     "link": "https://durable.co/  ",
     "image": "https://cdn.prod.website-files.com/632df91dd7c99c0ac992c47b/633209f841779258877b02b1_favicon.png  ",
-    "type": ["website building", "business"]
+    "type": [
+      "Content & Design",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Deep AI",
     "description": "AI chatbot that can be used for various purposes, such as writing stories, messages, or programming code.",
+    "description-ro": "Chatbot AI care poate fi utilizat în diverse scopuri, cum ar fi scrierea de povești, mesaje sau cod de programare.",
+    "description-ru": "Чат-бот ИИ, который может использоваться для различных целей, таких как написание историй, сообщений или программного кода.",
     "link": "https://deepai.org/chat  ",
     "image": "https://deepai.org/static/images/favicon.ico  ",
-    "type": ["text", "code", "general", "productivity"]
+    "type": [
+      "Coding & Tech",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Copilot",
     "description": "AI-powered assistant designed to help you find relevant information across your organization.",
+    "description-ro": "Asistent bazat pe AI conceput pentru a te ajuta să găsești informații relevante în întreaga ta organizație.",
+    "description-ru": "Ассистент на базе ИИ, предназначенный для помощи в поиске релевантной информации по всей вашей организации.",
     "link": "https://copilot.microsoft.com/  ",
     "image": "https://copilot.microsoft.com/rp/vE266_E90czuUc-Fs55Qoq9hIBc.svg  ",
-    "type": ["productivity", "search", "information", "text", "general"]
+    "type": [
+      "General & Multimodal",
+      "Learning & Research",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Writesonic",
     "description": "AI-powered writing platform that offers a suite of tools to help you create high-quality content, optimize it for SEO, and build AI chatbots.",
+    "description-ro": "Platformă de scris bazată pe AI care oferă o suită de instrumente pentru a te ajuta să creezi conținut de înaltă calitate, să-l optimizezi pentru SEO și să construiești chatboți AI.",
+    "description-ru": "Платформа для письма на базе ИИ, которая предлагает набор инструментов для создания высококачественного контента, оптимизации его для SEO и создания чат-ботов ИИ.",
     "link": "https://app.writesonic.com/library/bd2b1696-fe53-4276-b33b-d86308d4fd96/all  ",
     "image": "https://app.writesonic.com/favicon.ico ",
-    "type": ["text", "writing", "SEO", "productivity"]
+    "type": [
+      "Content & Design",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Gemini",
     "description": "AI assistant, built on the power of generative AI. It's available on Google Pixel phones and is integrated with Google Assistant.",
+    "description-ro": "Asistent AI, construit pe puterea AI generativ. Este disponibil pe telefoanele Google Pixel și este integrat cu Google Assistant.",
+    "description-ru": "Ассистент ИИ, построенный на мощности генеративного ИИ. Доступен на телефонах Google Pixel и интегрирован с Google Assistant.",
     "link": "https://gemini.google.com/app  ",
     "image": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_advanced_1743d7b7a7bc01f38e6f4.svg  ",
-    "type": ["text", "general", "productivity", "multi-model", "images", "code"]
+    "type": [
+      "Coding & Tech",
+      "Content & Design",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Microsoft Designer",
     "description": "AI-powered graphic design and image editing app that helps you create stunning designs in seconds.",
+    "description-ro": "Aplicație de design grafic și editare de imagini bazată pe AI care te ajută să creezi designuri uimitoare în câteva secunde.",
+    "description-ru": "Приложение для графического дизайна и редактирования изображений на базе ИИ, которое помогает создавать потрясающие дизайны за секунды.",
     "link": "https://designer.microsoft.com/  ",
     "image": "https://designer.microsoft.com/static/media/designer-app-logo.c270ec3147032a913024e7fa63cff2aa.svg  ",
-    "type": ["design", "images", "productivity"]
+    "type": [
+      "Content & Design",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "BLACKBOX AI",
     "description": "AI-powered coding assistant that helps developers with code generation, completion, search, and image analysis.",
+    "description-ro": "Asistent de codare bazat pe AI care ajută dezvoltatorii cu generarea de cod, completarea, căutarea și analiza imaginilor.",
+    "description-ru": "Ассистент для кодирования на базе ИИ, который помогает разработчикам с генерацией кода, автодополнением, поиском и анализом изображений.",
     "link": "https://www.blackbox.ai/  ",
     "image": "https://www.blackbox.ai/favicon.ico  ",
-    "type": ["code", "developer tools"]
+    "type": [
+      "Coding & Tech"
+    ]
   },
   {
     "title": "ChatGPT",
     "description": "Capable of generating human-like text, answering questions, and performing various tasks like writing articles, emails, and code.",
+    "description-ro": "Capabil să genereze text asemănător celui uman, să răspundă la întrebări și să efectueze diverse sarcini, cum ar fi scrierea de articole, e-mailuri și cod.",
+    "description-ru": "Способен генерировать текст, похожий на человеческий, отвечать на вопросы и выполнять различные задачи, такие как написание статей, электронных писем и кода.",
     "link": "https://chatgpt.com/  ",
     "image": "https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.82af6fe1.png  ",
-    "type": ["text", "code", "general", "productivity", "images"]
+    "type": [
+      "Coding & Tech",
+      "Content & Design",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   },
   {
     "title": "Theb.ai",
     "description": "Is an all-in-one AI platform with a wide range of models, from language to image processing, accessible through a user-friendly interface or a unified API.",
+    "description-ro": "Este o platformă AI completă cu o gamă largă de modele, de la procesarea limbajului la procesarea imaginilor, accesibilă printr-o interfață ușor de utilizat sau un API unificat.",
+    "description-ru": "Это универсальная платформа ИИ с широким спектром моделей, от обработки языка до обработки изображений, доступная через удобный интерфейс или единый API.",
     "link": "https://beta.theb.ai/home  ",
     "image": "theb-ai.webp",
-    "type": ["text", "images", "multimodal", "code", "general", "productivity"]
+    "type": [
+      "Coding & Tech",
+      "Content & Design",
+      "General & Multimodal",
+      "Work & Productivity"
+    ]
   }
 ]
