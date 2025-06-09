@@ -2,12 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-     <link rel="icon" type="image/x-icon" href="https://media.mihailungu.com/resources/images/poza.jpg   ">
+     <link rel="icon" type="image/x-icon" href="https://media.mihailungu.com/resources/images/poza.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css   ">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js   "></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js   "></script>
-<title>             AI</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<title>AI</title>
     <style>
     row {
     display: flex;
@@ -49,7 +49,7 @@
 .ai {
     width: 100%; /* Lățime completă pentru dispozitive mici */
     max-width: 580px;
-    min-height: 200px;
+    min-height: 240px;
     min-width: 300px;
     height: auto;
     background-color: rgba(255, 255, 255, 0.15);
@@ -98,15 +98,9 @@ body {
     margin: 7px 0;
 }
 
-/* Dropdown style */
-.filter-dropdown {
-    margin-bottom: 20px;
-    text-align: center;
-   
-}
-.filter-dropdown select {
-  width: 94%;
-  margin-top: 80px;
+select {
+  width: 100%;
+  margin-top:4px;
     padding: 10px;
     font-size: 18px;
     border-radius: 5px;
@@ -116,28 +110,52 @@ body {
     cursor: pointer;
     margin-bottom: 0;
 }
-.filter-dropdown select:focus {
+select:focus {
     outline: none;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
+
     </style>
 </head>
 
 <body>
     <br>
-<nav class="head navbar navbar-fixed-top" align="center">
-    <h1 id="r2" class="textin" style="font-weight: bold;">Artificial Intelligence</h1>
-</nav>
-<link rel="stylesheet" href="https://media.mihailungu.com/resources/newyear/style.css   ">
-    <script type="text/javascript" src="https://media.mihailungu.com/resources/newyear/newyear.js   "></script>
-    <br>
-
-<div class="filter-dropdown">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href=""><img src="https://media.mihailungu.com/resources/images/poza.jpg" class="confirmed"
+            style="width:45px;height:30px;" /></a>
+        <a class="navbar-brand" href="" ><font face="Lora" id="r2">Artificial Intelligence</font></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
     <select id="type-filter" onchange="filterAI()">
         <option value="all">All Types</option>
         <!-- Options will be dynamically populated here -->
     </select>
-</div>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="language-label">
+              <img src="https://media.mihailungu.com/resources/en-flag.png" class="confirmed" style="width: 25px;height:15px;" /> EN <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" style="width:50%" id="language-menu">
+              <li><a href="#" onclick="changeLanguage('ro')"><img src="https://media.mihailungu.com/resources/ro-flag.png" class="confirmed" style="width: 25px;height:15px;" /> <font size="-1">RO</font></a></li>
+              <li><a href="#" onclick="changeLanguage('ru')"><img src="https://media.mihailungu.com/resources/ru-flag.jpg" class="confirmed" style="width: 25px;height:15px;" /> <font size="-1">RU</font></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<link rel="stylesheet" href="https://media.mihailungu.com/resources/newyear/style.css">
+    <script type="text/javascript" src="https://media.mihailungu.com/resources/newyear/newyear.js"></script>
+    <br>
 
 <div class="container" id="ai-container">
   <!-- AI cards will be dynamically generated here -->
@@ -173,7 +191,6 @@ RainbowSpan.prototype.moveRainbow = function() {
   var a=this.length;
   var h=this.hue;
   for(var i=0; i<a; i++) {
-
     if(h>359) h-=360;
     if(h<60) { color=Math.floor(((h)/60)*b); red=b;grn=color;blu=0; }
     else if(h<120) { color=Math.floor(((h-60)/60)*b); red=b-color;grn=b;blu=0; }
@@ -190,15 +207,14 @@ RainbowSpan.prototype.moveRainbow = function() {
 var r2=document.getElementById("r2"); //get span to apply rainbow
 var myRainbowSpan2=new RainbowSpan(r2, 0, 360, 255, 50, 348); //apply static rainbow effect
 myRainbowSpan2.timer=window.setInterval("myRainbowSpan2.moveRainbow()", myRainbowSpan2.speed);
-	</script>
+</script>
 <footer class="footer">
   <div class="row">
     <div class="col-md-6">
-      <h3>&copy; <span id="footer-year"></span> By <a href="https://www.mihailungu.com    "><font color="white"><u>Mihai Lungu</u></font></a></h3>
+      <h3>© <span id="footer-year"></span> By <a href="https://www.mihailungu.com"><font color="white"><u>Mihai Lungu</u></font></a></h3>
     </div>
     <div class="col-md-6">
       <h3 id="updateInfo" style="text-align: right;"></h3>
-      
     </div>
   </div>
 </footer>
@@ -212,9 +228,17 @@ myRainbowSpan2.timer=window.setInterval("myRainbowSpan2.moveRainbow()", myRainbo
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     let aiData = [];
+    let currentLanguage = 'en'; // Default language
+    let currentFilter = 'all'; // Default filter
 
     // Function to create a single AI item
     function createAIItem(item) {
+        const descriptionField = currentLanguage === 'ro' ? 'description-ro' : currentLanguage === 'ru' ? 'description-ru' : 'description';
+        // Fallback to English description if the translated one is missing
+        const description = item[descriptionField] || item.description || 'Description not available';
+        if (!item[descriptionField] && descriptionField !== 'description') {
+            console.warn(`Missing ${descriptionField} for item: ${item.title}`);
+        }
         return `
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="ai" onClick="window.open('${item.link}')">
@@ -224,7 +248,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
                         <div class="col-xs-8">
                             <h1 class="title">${item.title}</h1>
-                            <h4 class="information">${item.description}</h4>
+                            <h4 class="information">${description}</h4>
                         </div>
                     </div>
                 </div>
@@ -243,11 +267,72 @@ document.addEventListener('DOMContentLoaded', function() {
         return rows;
     }
 
+    // Function to update language dropdown and navbar
+    function updateLanguageUI(language) {
+        const languageLabel = document.getElementById('language-label');
+        const languageMenu = document.getElementById('language-menu');
+        const flags = {
+            'en': 'https://media.mihailungu.com/resources/en-flag.png',
+            'ro': 'https://media.mihailungu.com/resources/ro-flag.png',
+            'ru': 'https://media.mihailungu.com/resources/ru-flag.jpg'
+        };
+        const languages = ['en', 'ro', 'ru'].filter(lang => lang !== language);
+
+        // Update navbar label
+        languageLabel.innerHTML = `
+            <img src="${flags[language]}" class="confirmed" style="width: 25px;height:15px;" /> ${language.toUpperCase()} <span class="caret"></span>
+        `;
+
+        // Update dropdown menu
+        languageMenu.innerHTML = languages.map(lang => `
+            <li><a href="#" onclick="changeLanguage('${lang}')"><img src="${flags[lang]}" class="confirmed" style="width: 25px;height:15px;" /> <font size="-1">${lang.toUpperCase()}</font></a></li>
+        `).join('');
+    }
+
+    // Function to get filtered data based on current filter
+    function getFilteredData() {
+        if (currentFilter === 'all') {
+            return aiData;
+        }
+        return aiData.filter(item => item.type.includes(currentFilter));
+    }
+
+    // Function to change language
+    window.changeLanguage = function(language) {
+        currentLanguage = language;
+        updateLanguageUI(language);
+        renderAI(getFilteredData()); // Re-render with current filter
+    };
+
+    // Function to render AI items
+    function renderAI(data) {
+        const container = document.querySelector('.container');
+        container.innerHTML = createRows(data);
+    }
+
+    // Filter AI items based on selected type
+    window.filterAI = function() {
+        currentFilter = document.getElementById('type-filter').value;
+        renderAI(getFilteredData()); // Show filtered items
+    };
+
     // Fetch JSON data and append to container
     fetch('ai-data.json')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
             aiData = data; // Store the data globally
+            console.log('Loaded JSON data:', aiData); // Log the loaded data for debugging
+
+            // Validate that descriptions exist
+            aiData.forEach(item => {
+                if (!item['description-ro']) console.warn(`Missing description-ro for ${item.title}`);
+                if (!item['description-ru']) console.warn(`Missing description-ru for ${item.title}`);
+            });
 
             // Extract unique types from the data
             const allTypes = aiData.flatMap(item => item.type); // Flatten the array of types
@@ -263,38 +348,25 @@ document.addEventListener('DOMContentLoaded', function() {
             });
 
             renderAI(aiData); // Render all AI items initially
+            updateLanguageUI(currentLanguage); // Initialize language UI
         })
-        .catch(error => console.error('Error loading JSON:', error));
+        .catch(error => {
+            console.error('Error loading JSON:', error);
+            document.getElementById('ai-container').innerHTML = '<p>Error loading AI data. Please check the JSON file.</p>';
+        });
 
-    // Function to render AI items
-    function renderAI(data) {
-        const container = document.querySelector('.container'); // Ensure your HTML has a container div
-        container.innerHTML = createRows(data);
-    }
-
-    // Filter AI items based on selected type
-    window.filterAI = function() {
-        const filterValue = document.getElementById('type-filter').value;
-        if (filterValue === 'all') {
-            renderAI(aiData); // Show all items
-        } else {
-            const filteredData = aiData.filter(item => item.type.includes(filterValue));
-            renderAI(filteredData); // Show filtered items
+    // Fetch update information
+    async function fetchUpdateInfo() {
+        try {
+            const response = await fetch('updateInfo.json');
+            const data = await response.json();
+            document.getElementById('updateInfo').innerText = data.updated;
+        } catch (error) {
+            console.error('Error fetching the update information:', error);
         }
-    };
-});
-
-// Fetch update information
-async function fetchUpdateInfo() {
-    try {
-        const response = await fetch('updateInfo.json');
-        const data = await response.json();
-        document.getElementById('updateInfo').innerText = data.updated;
-    } catch (error) {
-        console.error('Error fetching the update information:', error);
     }
-}
-fetchUpdateInfo();
+    fetchUpdateInfo();
+});
 </script>
 </body>
 </html>
